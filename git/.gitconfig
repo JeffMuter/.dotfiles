@@ -1,0 +1,5 @@
+[safe]
+	directory = /etc/nixos
+[user]
+	email = muterjeffery@gmail.com
+	name = JeffMuter
