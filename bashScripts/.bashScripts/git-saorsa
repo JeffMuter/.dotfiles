@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Prompt for the commit message
+echo -n "Enter commit message: "
+read message
+
+# Add
+git add .
+
+# Commit
+git commit -m "$message"
+
+# Pull
+git pull origin master
+
+# Push
+git push origin master
