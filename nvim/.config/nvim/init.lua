@@ -115,17 +115,20 @@ vim.opt.showmode = false
 --  Remove this option if you want your OS clipboard to remain independent.
 --  See `:help 'clipboard'`
 -- Check if running in WSL
+--
+local win32yank_path = os.getenv("WIN32YANK_PATH") or "/mnt/c/Users/jeffmuter/AppData/Local/Microsoft/WinGet/Packages/equalsraf.win32yank_Microsoft.Winget.Source_8wekyb3d8bbwe/win32yank.exe"
 
   vim.g.clipboard = {
     name = 'win32yank-wsl',
     copy = {
-      ['+'] = '/mnt/c/Users/jeffmuter/AppData/Local/Microsoft/WinGet/Packages/equalsraf.win32yank_Microsoft.Winget.Source_8wekyb3d8bbwe/win32yank.exe -i',
-      ['*'] = '/mnt/c/Users/jeffmuter/AppData/Local/Microsoft/WinGet/Packages/equalsraf.win32yank_Microsoft.Winget.Source_8wekyb3d8bbwe/win32yank.exe -i',
+      ['+'] = { win32yank_path, "-i", "--crlf" },
+      ['*'] = { win32yank_path, "-i", "--crlf" },
     },
     paste = {
-      ['+'] = '/mnt/c/Users/jeffmuter/AppData/Local/Microsoft/WinGet/Packages/equalsraf.win32yank_Microsoft.Winget.Source_8wekyb3d8bbwe/win32yank.exe -o',
-      ['*'] = '/mnt/c/Users/jeffmuter/AppData/Local/Microsoft/WinGet/Packages/equalsraf.win32yank_Microsoft.Winget.Source_8wekyb3d8bbwe/win32yank.exe -o',
+      ['+'] = { win32yank_path, "-o", "--lf" },
+      ['*'] = { win32yank_path, "-o", "--lf" },
     },
+  -- /mnt/c/Users/jeffmuter/AppData/Local/Microsoft/WinGet/Packages/equalsraf.win32yank_Microsoft.Winget.Source_8wekyb3d8bbwe/win32yank.exe -o
     cache_enabled = 0,
   vim.opt.clipboard:append('unnamedplus')
   }
