@@ -114,9 +114,23 @@ vim.opt.showmode = false
 --  Schedule the setting after `UiEnter` because it can increase startup-time.
 --  Remove this option if you want your OS clipboard to remain independent.
 --  See `:help 'clipboard'`
-vim.schedule(function()
-  vim.opt.clipboard = 'unnamedplus'
-end)
+-- Check if running in WSL
+
+  vim.g.clipboard = {
+    name = 'win32yank-wsl',
+    copy = {
+      ['+'] = '/mnt/c/Users/jeffmuter/AppData/Local/Microsoft/WinGet/Packages/equalsraf.win32yank_Microsoft.Winget.Source_8wekyb3d8bbwe/win32yank.exe -i',
+      ['*'] = '/mnt/c/Users/jeffmuter/AppData/Local/Microsoft/WinGet/Packages/equalsraf.win32yank_Microsoft.Winget.Source_8wekyb3d8bbwe/win32yank.exe -i',
+    },
+    paste = {
+      ['+'] = '/mnt/c/Users/jeffmuter/AppData/Local/Microsoft/WinGet/Packages/equalsraf.win32yank_Microsoft.Winget.Source_8wekyb3d8bbwe/win32yank.exe -o',
+      ['*'] = '/mnt/c/Users/jeffmuter/AppData/Local/Microsoft/WinGet/Packages/equalsraf.win32yank_Microsoft.Winget.Source_8wekyb3d8bbwe/win32yank.exe -o',
+    },
+    cache_enabled = 0,
+  vim.opt.clipboard:append('unnamedplus')
+  }
+  -- use this when not on wsl
+--  vim.opt.clipboard = 'unnamedplus'
 
 -- Enable break indent
 vim.opt.breakindent = true
@@ -723,6 +737,7 @@ require('lazy').setup({
       formatters_by_ft = {
         lua = { 'stylua' },
         sql = { 'sqlfluff' },
+        html = { 'prettier', },
         -- Conform can also run multiple formatters sequentially
         -- python = { "isort", "black" },
         --
