@@ -1038,7 +1038,8 @@ require('lazy').setup({
       vim.g.db_ui_save_location = vim.fn.stdpath 'data' .. '/db_ui'
 
       vim.g.dbs = {
-        pact_sqlite3 = 'sqlite:/home/x12/repos/pact/database/database.db',
+        pact = 'sqlite:~/repos/pact/database/database.db',
+        prism = 'postgresql:///prism?host=/var/run/postgresql'
       }
 
       -- Optional: Set up key mappings
