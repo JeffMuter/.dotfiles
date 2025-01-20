@@ -130,8 +130,9 @@ local win32yank_path = os.getenv("WIN32YANK_PATH") or "/mnt/c/Users/jeffmuter/Ap
     },
   -- /mnt/c/Users/jeffmuter/AppData/Local/Microsoft/WinGet/Packages/equalsraf.win32yank_Microsoft.Winget.Source_8wekyb3d8bbwe/win32yank.exe -o
     cache_enabled = 0,
-  vim.opt.clipboard:append('unnamedplus')
   }
+
+  vim.opt.clipboard:append('unnamedplus')
   -- use this when not on wsl
 --  vim.opt.clipboard = 'unnamedplus'
 
@@ -273,6 +274,12 @@ require('lazy').setup({
     },
   },
 
+  {
+    'JeffMuter/godoc.nvim',
+    config = function()
+        require('godoc').setup({})
+    end,
+  },
   -- NOTE: Plugins can also be configured to run Lua code when they are loaded.
   --
   -- This is often very useful to both group configuration, as well as handle
@@ -1026,6 +1033,7 @@ require('lazy').setup({
     --    - Show your current context: https://github.com/nvim-treesitter/nvim-treesitter-context
     --    - Treesitter + textobjects: https://github.com/nvim-treesitter/nvim-treesitter-textobjects
   },
+
   {
     'tpope/vim-dadbod',
     dependencies = {
