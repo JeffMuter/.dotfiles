@@ -646,6 +646,7 @@ require('lazy').setup({
         html = {},
         terraformls = {},
         htmx = {},
+        ts_ls = {},
 
         zls = {},
         -- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
@@ -1036,6 +1037,10 @@ require('lazy').setup({
     --    - Incremental selection: Included, see `:help nvim-treesitter-incremental-selection-mod`
     --    - Show your current context: https://github.com/nvim-treesitter/nvim-treesitter-context
     --    - Treesitter + textobjects: https://github.com/nvim-treesitter/nvim-treesitter-textobjects
+  },
+
+  {
+    'tpope/vim-surround'
   },
 
   {
