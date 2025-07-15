@@ -697,7 +697,6 @@ require('lazy').setup({
         },
       }
 
-<<<<<<< HEAD
       vim.api.nvim_create_autocmd('BufWritePre', {
         pattern = '*.go',
         callback = function()
@@ -747,8 +746,6 @@ require('lazy').setup({
       require('mason').setup()
 
       -- You can add other tools here that you want Mason to install
-=======
->>>>>>> 8699ef935d0310aed6a9f23369b8a7e131a240ce
       -- for you, so that they are available from within Neovim.
       local ensure_installed = vim.tbl_keys(servers or {})
       vim.list_extend(ensure_installed, {
