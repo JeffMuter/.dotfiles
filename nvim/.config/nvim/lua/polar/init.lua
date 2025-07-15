@@ -72,8 +72,8 @@ function M.setup()
     -- Todo = { fg = colors.sky, bold = true },
 
     -- Editor UI
-    Cursor = { fg = colors.black },
-    CursorLine = { bg = colors.engineSmoke, fg = colors.white },
+    Cursor = {bg = colors.candle, fg = colors.black },
+    CursorLine = { bg = colors.engineSmoke, fg = colors.candle },
     -- CursorColumn = { bg = colors.sky },
     -- ColorColumn = { bg = colors.navy },
     -- Conceal = { },
