@@ -139,6 +139,12 @@ local win32yank_path = os.getenv("WIN32YANK_PATH") or "/mnt/c/Users/jeffmuter/Ap
 -- Enable break indent
 vim.opt.breakindent = true
 
+-- indentation setting tab configuration, tab == 4spaces imo looks best.
+vim.opt.tabstop = 4        -- Number of spaces a tab counts for
+vim.opt.shiftwidth = 4     -- Number of spaces for each indentation level
+vim.opt.expandtab = true   -- Use spaces instead of tabs
+vim.opt.softtabstop = 4    -- Number of spaces for tab key in insert mode
+
 -- Save undo history
 vim.opt.undofile = true
 
@@ -629,13 +635,12 @@ require('lazy').setup({
       --  - settings (table): Override the default settings passed when initializing the server.
       --        For example, to see the options for `lua_ls`, you could go to: https://luals.github.io/wiki/settings/
       local servers = {
-        gopls = {
-          analyses = {
-            unusedparams = true,
-          },
-          staticcheck = true,
-          experimentalPostfixCompletions = true,
-        },
+    gopls = {
+      gofumpt = true,
+      analyses = {
+        unusedparams = true,
+      },
+    },
         quick_lint_js = {},
         sqls = {
           on_attach = function(client)
@@ -643,7 +648,13 @@ require('lazy').setup({
             client.server_capabilities.documentRangeFormattingProvider = false
           end,
         },
-        html = {},
+        html = {
+          on_attach = function(client)
+            -- Disable formatting from HTML LSP
+            client.server_capabilities.documentFormattingProvider = false
+            client.server_capabilities.documentRangeFormattingProvider = false
+          end,
+        },
         terraformls = {},
         htmx = {},
         ts_ls = {},
@@ -672,24 +683,6 @@ require('lazy').setup({
         },
       }
 
-      vim.api.nvim_create_autocmd('BufWritePre', {
-        pattern = '*.go',
-        callback = function()
-          vim.lsp.buf.code_action {
-            context = { only = { 'source.organizeImports' } },
-            apply = true,
-          }
-        end,
-      })
-      -- Ensure the servers and tools above are installed
-      --  To check the current status of installed tools and/or manually install
-      --  other tools, you can run
-      --    :Mason
-      --
-      --  You can press `g?` for help in this menu.
-      require('mason').setup()
-
-      -- You can add other tools here that you want Mason to install
       -- for you, so that they are available from within Neovim.
       local ensure_installed = vim.tbl_keys(servers or {})
       vim.list_extend(ensure_installed, {
@@ -710,6 +703,24 @@ require('lazy').setup({
             -- by the server configuration above. Useful when disabling
             -- certain features of an LSP (for example, turning off formatting for ts_ls)
             server.capabilities = vim.tbl_deep_extend('force', {}, capabilities, server.capabilities or {})
+      -- Special handling for gopls
+      if server_name == 'gopls' then
+        server.on_attach = function(client, bufnr)
+          -- Auto-import on save for Go files
+          if client.server_capabilities.codeActionProvider then
+            vim.api.nvim_create_autocmd("BufWritePre", {
+              buffer = bufnr,
+              callback = function()
+                vim.lsp.buf.code_action({
+                  context = { only = {"source.organizeImports"} },
+                  apply = true,
+                })
+              end,
+            })
+          end
+        end
+            end
+
             require('lspconfig')[server_name].setup(server)
           end,
         },
@@ -752,7 +763,7 @@ require('lazy').setup({
       formatters_by_ft = {
         lua = { 'stylua' },
         sql = { 'sqlfluff' },
-        html = { 'prettier', },
+--        html = { 'prettier', },
         -- Conform can also run multiple formatters sequentially
         -- python = { "isort", "black" },
         --
@@ -1056,7 +1067,9 @@ require('lazy').setup({
 
       vim.g.dbs = {
         pact = 'sqlite:~/repos/pact/database/database.db',
-        prism = 'postgresql:///prism?host=/var/run/postgresql'
+        prism = 'postgresql:///prism?host=/var/run/postgresql',
+        gohttp = 'sqlite:~/repos/examples/gohttp/database/gohttp.db',
+        muse = 'sqlite:~/repose/projects/db/muse.db',
       }
 
       -- Optional: Set up key mappings
@@ -1064,6 +1077,7 @@ require('lazy').setup({
       vim.keymap.set('n', '<leader>df', '<Cmd>DBUIFindBuffer<CR>', { desc = 'Find DB buffer' })
       vim.keymap.set('n', '<leader>dr', '<Cmd>DBUIRenameBuffer<CR>', { desc = 'Rename DB buffer' })
       vim.keymap.set('n', '<leader>dl', '<Cmd>DBUILastQueryInfo<CR>', { desc = 'Show last query' })
+
 
       -- Set up completion for SQL files
       vim.api.nvim_create_autocmd('FileType', {
