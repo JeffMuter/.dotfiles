@@ -1,0 +1,39 @@
+2025-05-24 14:04:58.507 [info] Starting Python Locator /home/emerald/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python-env-tools/bin/pet server
+2025-05-24 14:04:58.679 [info] Env ("/run/current-system/sw/bin/python") in Path resolved as ResolvedPythonEnv { executable: "/run/current-system/sw/bin/python", prefix: "/nix/store/kjgslpdqchx1sm7a5h9xibi5rrqcqfnl-python3-3.12.8", version: "3.12.8.final.0", is64_bit: true, symlinks: Some(["/run/current-system/sw/bin/python"]) } and reported as Some(GlobalPaths)
+2025-05-24 14:04:58.680 [info] Discovered env: /run/current-system/sw/bin/python
+2025-05-24 14:04:58.681 [info] Env ("/run/current-system/sw/bin/python3") in Path resolved as ResolvedPythonEnv { executable: "/run/current-system/sw/bin/python3", prefix: "/nix/store/kjgslpdqchx1sm7a5h9xibi5rrqcqfnl-python3-3.12.8", version: "3.12.8.final.0", is64_bit: true, symlinks: Some(["/run/current-system/sw/bin/python3"]) } and reported as Some(GlobalPaths)
+2025-05-24 14:04:58.750 [info] Env ("/run/current-system/sw/bin/python3.12") in Path resolved as ResolvedPythonEnv { executable: "/run/current-system/sw/bin/python3.12", prefix: "/nix/store/kjgslpdqchx1sm7a5h9xibi5rrqcqfnl-python3-3.12.8", version: "3.12.8.final.0", is64_bit: true, symlinks: Some(["/run/current-system/sw/bin/python3.12"]) } and reported as Some(GlobalPaths)
+2025-05-24 14:04:58.769 [info] Locator Conda took 210.764834ms
+2025-05-24 14:04:58.770 [info] Locator Homebrew took 88.497µs
+2025-05-24 14:04:58.770 [info] Locator LinuxGlobal took 208.839209ms
+2025-05-24 14:04:58.770 [info] Locator PipEnv took 7.36116ms
+2025-05-24 14:04:58.770 [info] Locator Poetry took 584.853µs
+2025-05-24 14:04:58.770 [info] Locator PyEnv took 16.102092ms
+2025-05-24 14:04:58.770 [info] Locator Venv took 23.66µs
+2025-05-24 14:04:58.770 [info] Locator VirtualEnv took 27.804µs
+2025-05-24 14:04:58.770 [info] Locator VirtualEnvWrapper took 94.487µs
+2025-05-24 14:04:58.771 [info] Locator GlobalVirtualEnvs took 13.302513ms
+2025-05-24 14:04:58.771 [info] Locator Locators took 231.157921ms
+2025-05-24 14:04:58.772 [info] Locator Path took 397.744538ms
+2025-05-24 14:04:58.772 [info] Locator Workspaces took 1.435µs
+2025-05-24 14:04:58.772 [info] Refresh completed in 398ms
+2025-05-24 16:58:02.577 [info] Starting Python Locator /home/emerald/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python-env-tools/bin/pet server
+2025-05-24 16:58:02.587 [info] Discovered env: /home/emerald/repos/pyDial/venv/bin/python
+2025-05-24 16:58:02.588 [info] Env ("/run/current-system/sw/bin/python") in Path resolved as ResolvedPythonEnv { executable: "/run/current-system/sw/bin/python", prefix: "/nix/store/kjgslpdqchx1sm7a5h9xibi5rrqcqfnl-python3-3.12.8", version: "3.12.8.final.0", is64_bit: true, symlinks: Some(["/run/current-system/sw/bin/python"]) } and reported as Some(GlobalPaths)
+2025-05-24 16:58:02.588 [info] Discovered env: /run/current-system/sw/bin/python
+2025-05-24 16:58:02.620 [info] Env ("/run/current-system/sw/bin/python3") in Path resolved as ResolvedPythonEnv { executable: "/run/current-system/sw/bin/python3", prefix: "/nix/store/kjgslpdqchx1sm7a5h9xibi5rrqcqfnl-python3-3.12.8", version: "3.12.8.final.0", is64_bit: true, symlinks: Some(["/run/current-system/sw/bin/python3"]) } and reported as Some(GlobalPaths)
+2025-05-24 16:58:02.698 [info] Env ("/run/current-system/sw/bin/python3.12") in Path resolved as ResolvedPythonEnv { executable: "/run/current-system/sw/bin/python3.12", prefix: "/nix/store/kjgslpdqchx1sm7a5h9xibi5rrqcqfnl-python3-3.12.8", version: "3.12.8.final.0", is64_bit: true, symlinks: Some(["/run/current-system/sw/bin/python3.12"]) } and reported as Some(GlobalPaths)
+2025-05-24 16:58:02.718 [info] Locator Conda took 230.824005ms
+2025-05-24 16:58:02.718 [info] Locator Homebrew took 124.535µs
+2025-05-24 16:58:02.718 [info] Locator LinuxGlobal took 146.761563ms
+2025-05-24 16:58:02.718 [info] Locator PipEnv took 51.532µs
+2025-05-24 16:58:02.719 [info] Locator Poetry took 30.181856ms
+2025-05-24 16:58:02.719 [info] Locator PyEnv took 528.007µs
+2025-05-24 16:58:02.719 [info] Locator Venv took 83.018µs
+2025-05-24 16:58:02.721 [info] Locator VirtualEnv took 57.308µs
+2025-05-24 16:58:02.721 [info] Locator VirtualEnvWrapper took 48.209µs
+2025-05-24 16:58:02.721 [info] Locator GlobalVirtualEnvs took 325.054µs
+2025-05-24 16:58:02.721 [info] Locator Locators took 242.22936ms
+2025-05-24 16:58:02.721 [info] Locator Path took 477.157845ms
+2025-05-24 16:58:02.721 [info] Locator Workspaces took 113.545635ms
+2025-05-24 16:58:02.721 [info] Refresh completed in 477ms

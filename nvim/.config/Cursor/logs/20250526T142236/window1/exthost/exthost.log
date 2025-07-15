@@ -1,0 +1,108 @@
+2025-05-26 14:22:42.923 [info] Extension host with pid 6960 started
+2025-05-26 14:22:42.923 [info] Skipping acquiring lock for /home/emerald/.config/Cursor/User/workspaceStorage/f365beb79ac927dc973da7c50675dd39.
+2025-05-26 14:22:43.090 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-05-26 14:22:43.592 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-05-26 14:22:43.603 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2025-05-26 14:22:44.025 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-05-26 14:22:44.322 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-05-26 14:22:44.770 [info] Eager extensions activated
+2025-05-26 14:22:44.935 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-05-26 14:22:45.512 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-05-26 14:22:45.919 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-05-26 14:22:46.053 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-05-26 14:22:46.178 [info] Extension host with pid 7035 started
+2025-05-26 14:22:46.178 [info] Skipping acquiring lock for /home/emerald/.config/Cursor/User/workspaceStorage/f365beb79ac927dc973da7c50675dd39.
+2025-05-26 14:22:46.376 [info] Eager extensions activated
+2025-05-26 14:22:46.496 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-05-26 14:22:46.512 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-05-26 14:22:46.592 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2025-05-26 14:22:47.459 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-05-26 14:22:49.293 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-05-26 14:22:49.310 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-05-26 14:22:49.327 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-05-26 14:54:04.023 [info] ExtensionService#_doActivateExtension golang.go, startup: false, activationEvent: 'onLanguage:go'
+2025-05-26 14:54:04.510 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-05-26 14:54:09.571 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2025-05-26 14:54:20.138 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2025-05-27 12:14:10.716 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2025-05-27 12:40:36.198 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2025-05-27 12:42:12.571 [info] Extension host terminating: renderer closed the MessagePort
+2025-05-27 12:42:12.577 [info] Extension host with pid 7035 exiting with code 0
+2025-05-27 12:42:12.578 [info] Extension host terminating: renderer closed the MessagePort
+2025-05-27 12:42:12.674 [error] Canceled: Canceled
+	at new aEt (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:111661)
+	at IK.U (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:116296)
+	at n.<computed>.a.charCodeAt.n.<computed> (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:113788)
+	at xY.g (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32527)
+	at xY.executeCommand (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32031)
+	at e.registerCommand.description (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:31361)
+	at xY.h (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:33048)
+	at xY.g (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32124)
+	at xY.executeCommand (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32031)
+	at Object.executeCommand (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:42481)
+	at L3.N [as value] (/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:978108)
+	at C.B (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2385)
+	at C (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2455)
+	at C.fire (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2672)
+	at Object.f [as dispose] (/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:999684)
+	at /nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1005806
+	at Array.forEach (<anonymous>)
+	at C.dispose (/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1005792)
+	at XG.<anonymous> (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:128:20157)
+	at XG.dispose (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:128:20253)
+	at XG.<anonymous> (/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:980587)
+	at XG.dispose (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:128:20253)
+	at Hs (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:706)
+	at file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:15363
+	at file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:1017
+	at Object.dispose (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:708)
+	at Jie.eb (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:12144)
+	at file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10098
+	at Array.map (<anonymous>)
+	at Jie.$ (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10086)
+	at Jie.terminate (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10329)
+	at fvt.terminate (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:1435)
+	at Gr (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:195:15173)
+	at MessagePortMain.<anonymous> (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:195:11701)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-05-27 12:42:12.674 [error] Canceled: Canceled
+	at new aEt (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:111661)
+	at IK.U (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:116296)
+	at n.<computed>.a.charCodeAt.n.<computed> (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:113788)
+	at xY.g (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32527)
+	at xY.executeCommand (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32031)
+	at e.registerCommand.description (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:31361)
+	at xY.h (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:33048)
+	at xY.g (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32124)
+	at xY.executeCommand (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32031)
+	at Object.executeCommand (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:42481)
+	at set hasGitHubRepositories (/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/extensions/github/dist/extension.js:4:328629)
+	at /nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/extensions/github/dist/extension.js:4:329588
+	at L3.value (/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1096223)
+	at C.B (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2385)
+	at C (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2455)
+	at C.fire (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2672)
+	at Object.f [as dispose] (/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:999684)
+	at /nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1005806
+	at Array.forEach (<anonymous>)
+	at C.dispose (/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1005792)
+	at XG.<anonymous> (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:128:20157)
+	at XG.dispose (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:128:20253)
+	at XG.<anonymous> (/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:980587)
+	at XG.dispose (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:128:20253)
+	at Hs (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:706)
+	at file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:15363
+	at file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:1017
+	at Object.dispose (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:708)
+	at Jie.eb (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:12144)
+	at file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10098
+	at Array.map (<anonymous>)
+	at Jie.$ (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10086)
+	at Jie.terminate (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10329)
+	at fvt.terminate (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:1435)
+	at Gr (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:195:15173)
+	at MessagePortMain.<anonymous> (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:195:11701)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-05-27 12:42:12.689 [info] Extension host with pid 6960 exiting with code 0

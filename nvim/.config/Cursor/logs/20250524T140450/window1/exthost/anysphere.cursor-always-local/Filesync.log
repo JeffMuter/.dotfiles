@@ -1,0 +1,116 @@
+2025-05-24 14:05:04.421 [error] Failed to check if file sync is enabled for user {}
+2025-05-24 14:05:04.421 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-24 14:05:04.421 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-24 14:05:04.421 [info] [registerEventListeners] Registering event listeners
+2025-05-24 14:05:05.456 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-24 14:05:05.573 [info] Fetched fsConfig in 115.95662500000071ms
+2025-05-24 14:05:05.573 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-24 14:05:05.913 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-24 14:05:06.105 [info] Fetched fsConfig in 191.17218299999877ms
+2025-05-24 14:05:06.105 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-24 14:05:06.109 [info] File sync enabled status: true
+2025-05-24 14:05:06.109 [info] Starting sync of visible tabs
+2025-05-24 14:05:06.171 [info] Uploaded file pydial.py modelVersion=1 in 45.46872500000063ms
+2025-05-24 14:05:06.172 [info] Synced all visible tabs in 66.31397300000026ms
+2025-05-24 14:05:06.887 [info] Starting sync of visible tabs
+2025-05-24 14:05:06.953 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-24 14:05:06.965 [info] Uploaded file pydial.py modelVersion=1 in 56.95114300000023ms
+2025-05-24 14:05:06.965 [info] Synced all visible tabs in 82.64987400000064ms
+2025-05-24 14:05:06.997 [info] Fetched fsConfig in 44.20750699999917ms
+2025-05-24 14:05:06.997 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-24 14:14:51.475 [error] Failed to check if file sync is enabled for user {}
+2025-05-24 14:14:51.475 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-24 14:14:51.475 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-24 14:14:51.638 [info] [registerEventListeners] Registering event listeners
+2025-05-24 14:14:54.132 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-24 14:14:54.178 [info] Fetched fsConfig in 43.685819000000265ms
+2025-05-24 14:14:54.178 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-24 14:14:57.553 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-24 14:14:57.560 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-24 14:14:57.613 [info] Fetched fsConfig in 60.04719599999953ms
+2025-05-24 14:14:57.614 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-24 14:14:57.618 [info] Fetched fsConfig in 57.21562300000005ms
+2025-05-24 14:14:57.618 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-24 14:14:57.618 [info] File sync enabled status: true
+2025-05-24 14:14:57.618 [info] Starting sync of visible tabs
+2025-05-24 14:14:57.618 [info] Synced all visible tabs in 0.1469939999988128ms
+2025-05-24 15:02:52.014 [info] Handled visible editors change in 1.4821500000543892ms
+2025-05-24 15:03:00.097 [info] Uploaded file sqlc.yaml modelVersion=4 in 138.03050500014797ms
+2025-05-24 15:03:00.099 [info] Uploaded file sqlc.yaml modelVersion=4 in 213.56477800011635ms
+2025-05-24 15:03:00.099 [info] Uploaded file sqlc.yaml modelVersion=4 in 141.45153599977493ms
+2025-05-24 15:03:00.100 [info] Uploaded file sqlc.yaml modelVersion=4 in 145.02326299995184ms
+2025-05-24 15:04:19.610 [info] Uploaded file db/schema/001_initial.sql modelVersion=4 in 134.97067000018433ms
+2025-05-24 15:04:19.611 [info] Uploaded file db/schema/001_initial.sql modelVersion=2 in 204.57489299960434ms
+2025-05-24 15:04:19.612 [info] Uploaded file db/schema/001_initial.sql modelVersion=4 in 133.76654900005087ms
+2025-05-24 15:04:19.613 [info] Uploaded file db/schema/001_initial.sql modelVersion=4 in 139.16115499986336ms
+2025-05-24 15:04:31.383 [info] Uploaded file db/migrations/001_initial_schema.sql modelVersion=4 in 56.397987000178546ms
+2025-05-24 15:04:31.384 [info] Uploaded file db/migrations/001_initial_schema.sql modelVersion=4 in 55.71867900015786ms
+2025-05-24 15:04:31.388 [info] Uploaded file db/migrations/001_initial_schema.sql modelVersion=4 in 50.006753999739885ms
+2025-05-24 15:04:31.388 [info] Uploaded file db/migrations/001_initial_schema.sql modelVersion=4 in 53.05642200028524ms
+2025-05-24 15:04:39.796 [info] Uploaded file db/queries/users.sql modelVersion=2 in 63.42848000023514ms
+2025-05-24 15:04:39.798 [info] Uploaded file db/queries/users.sql modelVersion=2 in 56.44137499993667ms
+2025-05-24 15:04:40.117 [info] Synced file db/queries/users.sql modelVersion=4 in 47.351937000174075ms
+2025-05-24 15:04:48.048 [info] Uploaded file db/queries/calls.sql modelVersion=2 in 57.98988599982113ms
+2025-05-24 15:04:48.049 [info] Uploaded file db/queries/calls.sql modelVersion=2 in 55.170865000225604ms
+2025-05-24 15:04:48.066 [info] Uploaded file db/queries/calls.sql modelVersion=4 in 46.870318999979645ms
+2025-05-24 15:04:48.067 [info] Uploaded file db/queries/calls.sql modelVersion=4 in 44.61674300022423ms
+2025-05-24 15:04:56.215 [info] Uploaded file go.mod modelVersion=3 in 53.45208799978718ms
+2025-05-24 15:04:56.216 [info] Uploaded file go.mod modelVersion=3 in 51.39192800037563ms
+2025-05-24 15:04:56.216 [info] Uploaded file go.mod modelVersion=3 in 49.89644000027329ms
+2025-05-24 15:05:09.650 [info] Uploaded file internal/database/db.go modelVersion=4 in 49.50983799993992ms
+2025-05-24 15:05:09.650 [info] Uploaded file internal/database/db.go modelVersion=4 in 51.55704899970442ms
+2025-05-24 15:05:09.661 [info] Uploaded file internal/database/db.go modelVersion=4 in 45.47931900015101ms
+2025-05-24 15:05:09.662 [info] Uploaded file internal/database/db.go modelVersion=4 in 49.18834100011736ms
+2025-05-24 15:07:17.793 [info] Uploaded file cmd/main.go modelVersion=2 in 130.19775200029835ms
+2025-05-24 15:07:17.794 [info] Uploaded file cmd/main.go modelVersion=2 in 190.0621539996937ms
+2025-05-24 15:33:33.250 [info] Handled visible editors change in 0.3488099994137883ms
+2025-05-24 15:34:33.811 [info] Uploaded file cmd/main.go modelVersion=1 in 304.481614000164ms
+2025-05-24 15:34:33.812 [info] Handled visible editors change in 881.9701460003853ms
+2025-05-24 15:38:44.805 [info] Synced file cmd/main.go modelVersion=2 in 36.759211000055075ms
+2025-05-24 15:38:45.079 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-24 15:38:45.121 [info] Fetched fsConfig in 41.87162999995053ms
+2025-05-24 15:38:45.121 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-24 15:38:45.121 [info] File sync enabled status: true
+2025-05-24 15:38:45.121 [info] Starting sync of visible tabs
+2025-05-24 15:38:45.121 [info] Synced all visible tabs in 0.2128460006788373ms
+2025-05-24 15:41:13.643 [info] Uploaded file internal/database/init.go modelVersion=2 in 5126.425249999389ms
+2025-05-24 15:41:13.649 [info] Uploaded file internal/database/init.go modelVersion=2 in 5235.89034399949ms
+2025-05-24 15:41:13.650 [info] Uploaded file internal/database/init.go modelVersion=2 in 5129.555293000303ms
+2025-05-24 15:41:13.655 [info] Uploaded file internal/database/init.go modelVersion=2 in 5164.802139000036ms
+2025-05-24 15:41:21.924 [warning] Failed to sync changes for internal/database/init.go, version=4, retrying (attempt 1) [invalid_argument] Invalid update range: InvalidUpdateRange: Update indices out of bounds: start_position: 17, end_position: 18, content length: 1
+2025-05-24 15:41:21.981 [warning] Failed to sync changes for internal/database/init.go, version=4, retrying (attempt 2) [invalid_argument] Invalid update range: InvalidUpdateRange: Update indices out of bounds: start_position: 17, end_position: 18, content length: 1
+2025-05-24 15:41:22.058 [warning] Failed to sync changes for internal/database/init.go, version=4, retrying (attempt 3) [invalid_argument] Invalid update range: InvalidUpdateRange: Update indices out of bounds: start_position: 17, end_position: 18, content length: 1
+2025-05-24 15:41:22.058 [error] Failed to sync changes for internal/database/init.go, version=4, attempting full file sync [invalid_argument] Invalid update range: InvalidUpdateRange: Update indices out of bounds: start_position: 17, end_position: 18, content length: 1
+2025-05-24 15:41:22.174 [info] Uploaded file internal/database/init.go modelVersion=4 in 115.12446700036526ms
+2025-05-24 15:41:22.673 [info] Synced file internal/database/init.go modelVersion=6 in 50.96609599981457ms
+2025-05-24 15:44:43.090 [info] Uploaded file internal/database/init_test.go modelVersion=2 in 244.23752100020647ms
+2025-05-24 15:44:43.091 [info] Uploaded file internal/database/init_test.go modelVersion=2 in 142.86401600018144ms
+2025-05-24 15:44:43.096 [info] Uploaded file internal/database/init_test.go modelVersion=4 in 102.88167199958116ms
+2025-05-24 15:44:43.098 [info] Uploaded file internal/database/init_test.go modelVersion=4 in 114.6560360006988ms
+2025-05-24 15:44:44.523 [info] Synced file internal/database/init_test.go modelVersion=5 in 57.932295999489725ms
+2025-05-24 15:45:35.970 [info] Synced file internal/database/init_test.go modelVersion=6 in 52.81773899961263ms
+2025-05-24 15:46:09.064 [info] Synced file internal/database/init_test.go modelVersion=7 in 54.28526099957526ms
+2025-05-24 16:58:07.925 [error] Failed to check if file sync is enabled for user {}
+2025-05-24 16:58:07.925 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-24 16:58:07.925 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-24 16:58:07.925 [info] [registerEventListeners] Registering event listeners
+2025-05-24 16:58:09.359 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-24 16:58:09.637 [info] Fetched fsConfig in 274.72031699999934ms
+2025-05-24 16:58:09.637 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-24 16:58:10.129 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-24 16:58:10.454 [info] Fetched fsConfig in 325.53049400000054ms
+2025-05-24 16:58:10.454 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-24 16:58:10.456 [info] File sync enabled status: true
+2025-05-24 16:58:10.456 [info] Starting sync of visible tabs
+2025-05-24 16:58:10.518 [info] Uploaded file pydial.py modelVersion=1 in 51.06766600000083ms
+2025-05-24 16:58:10.519 [info] Synced all visible tabs in 63.912945999998556ms
+2025-05-24 16:58:11.088 [info] Starting sync of visible tabs
+2025-05-24 16:58:11.140 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-24 16:58:11.155 [info] Uploaded file pydial.py modelVersion=1 in 61.002472000000125ms
+2025-05-24 16:58:11.156 [info] Synced all visible tabs in 67.85187399999995ms
+2025-05-24 16:58:11.197 [info] Fetched fsConfig in 56.04283899999973ms
+2025-05-24 16:58:11.197 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-24 16:58:20.867 [info] Handled visible editors change in 1.087933000002522ms
+2025-05-24 16:58:21.034 [info] Handled visible editors change in 1.368109999999433ms
+2025-05-24 16:58:21.840 [info] Handled visible editors change in 3.9083510000018578ms
+2025-05-24 16:58:22.038 [info] Handled visible editors change in 3.2895710000011604ms

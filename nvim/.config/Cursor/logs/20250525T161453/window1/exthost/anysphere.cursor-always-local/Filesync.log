@@ -1,0 +1,170 @@
+2025-05-25 16:15:06.449 [error] Failed to check if file sync is enabled for user {}
+2025-05-25 16:15:06.449 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-25 16:15:06.449 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-25 16:15:06.449 [info] [registerEventListeners] Registering event listeners
+2025-05-25 16:15:07.028 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-25 16:15:07.080 [info] Fetched fsConfig in 50.86422400000083ms
+2025-05-25 16:15:07.080 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-25 16:15:13.172 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-25 16:15:13.350 [info] Fetched fsConfig in 178.193048000001ms
+2025-05-25 16:15:13.350 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-25 16:15:13.351 [info] File sync enabled status: true
+2025-05-25 16:15:13.351 [info] Starting sync of visible tabs
+2025-05-25 16:15:13.402 [info] Uploaded file pydial.py modelVersion=1 in 48.03035799999998ms
+2025-05-25 16:15:13.402 [info] Synced all visible tabs in 52.10514300000068ms
+2025-05-25 16:15:14.137 [info] Starting sync of visible tabs
+2025-05-25 16:15:14.185 [info] Uploaded file pydial.py modelVersion=1 in 46.47889999999825ms
+2025-05-25 16:15:14.185 [info] Synced all visible tabs in 48.68121400000018ms
+2025-05-25 16:15:14.187 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-25 16:15:14.240 [info] Fetched fsConfig in 52.88172599999962ms
+2025-05-25 16:15:14.240 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-25 16:20:14.857 [error] Failed to check if file sync is enabled for user {}
+2025-05-25 16:20:14.857 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-25 16:20:14.857 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-25 16:20:14.857 [info] [registerEventListeners] Registering event listeners
+2025-05-25 16:20:16.517 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-25 16:20:16.601 [info] Fetched fsConfig in 84.11707600000045ms
+2025-05-25 16:20:16.601 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-25 16:20:16.970 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-25 16:20:17.172 [info] Fetched fsConfig in 200.947959000001ms
+2025-05-25 16:20:17.172 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-25 16:20:17.176 [info] File sync enabled status: true
+2025-05-25 16:20:17.176 [info] Starting sync of visible tabs
+2025-05-25 16:20:17.255 [info] Uploaded file cmd/main.go modelVersion=1 in 59.34162800000013ms
+2025-05-25 16:20:17.257 [info] Synced all visible tabs in 84.59798700000101ms
+2025-05-25 16:20:17.932 [info] Starting sync of visible tabs
+2025-05-25 16:20:17.980 [info] Uploaded file cmd/main.go modelVersion=1 in 45.97955600000023ms
+2025-05-25 16:20:17.981 [info] Synced all visible tabs in 49.92087800000081ms
+2025-05-25 16:20:17.983 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-25 16:20:18.033 [info] Fetched fsConfig in 48.97379000000001ms
+2025-05-25 16:20:18.033 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-25 19:01:44.438 [info] Uploaded file buildAir.sh modelVersion=2 in 212.154486999847ms
+2025-05-25 19:01:44.447 [info] Uploaded file buildAir.sh modelVersion=2 in 162.00566799985245ms
+2025-05-25 19:01:44.452 [info] Uploaded file buildAir.sh modelVersion=4 in 39.52645000023767ms
+2025-05-25 19:01:44.480 [info] Uploaded file buildAir.sh modelVersion=4 in 56.17787799984217ms
+2025-05-25 19:02:34.158 [info] Uploaded file static/css/input.css modelVersion=2 in 49.887383999768645ms
+2025-05-25 19:02:34.193 [info] Uploaded file static/css/input.css modelVersion=4 in 44.90421900013462ms
+2025-05-25 19:02:34.202 [info] Uploaded file static/css/input.css modelVersion=4 in 49.48439300013706ms
+2025-05-25 19:02:34.468 [info] Synced file static/css/input.css modelVersion=4 in 56.27257200004533ms
+2025-05-25 19:02:39.573 [info] Uploaded file tailwind.config.js modelVersion=2 in 57.09045200003311ms
+2025-05-25 19:02:39.625 [info] Uploaded file tailwind.config.js modelVersion=4 in 62.99216300016269ms
+2025-05-25 19:02:39.881 [info] Synced file tailwind.config.js modelVersion=4 in 53.9153229999356ms
+2025-05-25 19:02:44.718 [info] Uploaded file internal/router/router.go modelVersion=2 in 50.789296000264585ms
+2025-05-25 19:02:44.728 [info] Uploaded file internal/router/router.go modelVersion=4 in 47.751666999887675ms
+2025-05-25 19:02:44.749 [info] Uploaded file internal/router/router.go modelVersion=4 in 45.30222800001502ms
+2025-05-25 19:02:44.751 [info] Uploaded file internal/router/router.go modelVersion=4 in 45.40951199969277ms
+2025-05-25 19:03:16.610 [info] Synced file internal/router/router.go modelVersion=5 in 54.36096000019461ms
+2025-05-25 19:04:27.598 [info] Uploaded file internal/router/router.go modelVersion=2 in 179.81285999994725ms
+2025-05-25 19:04:27.599 [info] Uploaded file internal/router/router.go modelVersion=2 in 125.06205399986356ms
+2025-05-25 19:04:27.603 [info] Uploaded file internal/router/router.go modelVersion=4 in 43.375860000029206ms
+2025-05-25 19:04:27.607 [info] Uploaded file internal/router/router.go modelVersion=4 in 41.33139599999413ms
+2025-05-25 19:04:32.219 [info] Uploaded file cmd/main.go modelVersion=3 in 73.29170699976385ms
+2025-05-25 19:04:32.220 [info] Uploaded file cmd/main.go modelVersion=3 in 76.31758899986744ms
+2025-05-25 19:04:32.261 [info] Uploaded file cmd/main.go modelVersion=3 in 49.45550000015646ms
+2025-05-25 19:04:32.810 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-25 19:04:32.857 [info] Fetched fsConfig in 46.303392000030726ms
+2025-05-25 19:04:32.857 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-25 19:04:32.857 [info] File sync enabled status: true
+2025-05-25 19:04:32.857 [info] Starting sync of visible tabs
+2025-05-25 19:04:32.857 [info] Synced all visible tabs in 0.2379230000078678ms
+2025-05-25 19:04:35.764 [info] Synced file cmd/main.go modelVersion=5 in 57.33139599999413ms
+2025-05-25 19:04:36.640 [info] Synced file cmd/main.go modelVersion=10 in 49.441552999895066ms
+2025-05-25 19:04:47.628 [info] Synced file internal/router/router.go modelVersion=6 in 55.196192000061274ms
+2025-05-25 19:04:48.327 [info] Synced file internal/router/router.go modelVersion=11 in 54.86296100029722ms
+2025-05-25 19:11:44.277 [info] Handled visible editors change in 0.5854110000655055ms
+2025-05-25 19:11:44.745 [info] Uploaded file buildAir.sh modelVersion=1 in 234.06564699998125ms
+2025-05-25 19:11:44.745 [info] Handled visible editors change in 371.9430829999037ms
+2025-05-25 19:12:20.534 [info] Handled visible editors change in 0.7793720001354814ms
+2025-05-25 19:12:20.785 [info] Uploaded file internal/router/router.go modelVersion=1 in 47.55404199985787ms
+2025-05-25 19:12:20.785 [info] Handled visible editors change in 154.96183599997312ms
+2025-05-25 19:12:22.766 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-25 19:12:22.821 [info] Fetched fsConfig in 55.01667599985376ms
+2025-05-25 19:12:22.821 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-25 19:12:22.821 [info] File sync enabled status: true
+2025-05-25 19:12:22.821 [info] Starting sync of visible tabs
+2025-05-25 19:12:22.821 [info] Synced all visible tabs in 0.12554199993610382ms
+2025-05-25 19:13:07.950 [info] Synced file internal/router/router.go modelVersion=4 in 41.004848999902606ms
+2025-05-25 19:13:10.527 [info] Synced file internal/router/router.go modelVersion=13 in 48.613004999700934ms
+2025-05-25 19:13:11.259 [info] Synced file internal/router/router.go modelVersion=14 in 52.8266139999032ms
+2025-05-25 19:13:11.527 [info] Synced file internal/router/router.go modelVersion=15 in 38.69311200035736ms
+2025-05-25 19:13:15.251 [info] Synced file internal/router/router.go modelVersion=17 in 48.15302400011569ms
+2025-05-25 19:13:16.067 [info] Synced file internal/router/router.go modelVersion=18 in 46.94933900004253ms
+2025-05-25 19:13:16.419 [info] Synced file internal/router/router.go modelVersion=20 in 45.24880200019106ms
+2025-05-25 19:14:43.265 [info] Handled visible editors change in 0.48294899985194206ms
+2025-05-25 19:14:43.431 [info] Handled visible editors change in 1.0540559999644756ms
+2025-05-25 19:14:53.468 [info] Handled visible editors change in 0.37598300026729703ms
+2025-05-25 19:14:53.490 [info] Handled visible editors change in 0.8246219996362925ms
+2025-05-25 19:14:54.066 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-25 19:14:54.107 [info] Fetched fsConfig in 41.398852000012994ms
+2025-05-25 19:14:54.107 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-25 19:14:54.107 [info] File sync enabled status: true
+2025-05-25 19:14:54.107 [info] Starting sync of visible tabs
+2025-05-25 19:14:54.107 [info] Synced all visible tabs in 0.12522199982777238ms
+2025-05-25 19:15:01.579 [info] Handled visible editors change in 0.5288610002025962ms
+2025-05-25 19:15:01.617 [info] Handled visible editors change in 0.7881889999844134ms
+2025-05-25 19:15:26.794 [info] Handled visible editors change in 0.5357500002719462ms
+2025-05-25 19:15:26.831 [info] Handled visible editors change in 0.8823539996519685ms
+2025-05-25 19:20:33.793 [info] Uploaded file internal/router/router.go modelVersion=21 in 174.50134100019932ms
+2025-05-25 19:20:33.799 [info] Uploaded file internal/router/router.go modelVersion=21 in 263.0512489993125ms
+2025-05-25 19:20:34.207 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-25 19:20:34.255 [info] Fetched fsConfig in 44.0772219998762ms
+2025-05-25 19:20:34.255 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-25 19:20:34.256 [info] File sync enabled status: true
+2025-05-25 19:20:34.256 [info] Starting sync of visible tabs
+2025-05-25 19:20:34.256 [info] Synced all visible tabs in 0.1411939999088645ms
+2025-05-25 20:48:22.945 [info] Uploaded file buildAir.sh modelVersion=2 in 138.06820999924093ms
+2025-05-25 20:48:22.950 [info] Uploaded file buildAir.sh modelVersion=2 in 192.31154400017112ms
+2025-05-25 20:48:33.202 [info] Uploaded file package.json modelVersion=2 in 36.841796999797225ms
+2025-05-25 20:48:33.208 [info] Uploaded file package.json modelVersion=2 in 41.12194899935275ms
+2025-05-25 20:48:45.310 [info] Uploaded file tailwind.config.js modelVersion=2 in 51.20283899921924ms
+2025-05-25 20:48:45.312 [info] Uploaded file tailwind.config.js modelVersion=2 in 51.54528900049627ms
+2025-05-25 20:49:20.980 [info] Handled visible editors change in 0.7358659999445081ms
+2025-05-25 20:50:39.134 [info] Uploaded file scripts/dev.sh modelVersion=4 in 133.1079559996724ms
+2025-05-25 20:50:39.135 [info] Uploaded file scripts/dev.sh modelVersion=4 in 135.2692400002852ms
+2025-05-25 20:50:39.136 [info] Uploaded file scripts/dev.sh modelVersion=2 in 215.2697999998927ms
+2025-05-25 20:50:39.137 [info] Uploaded file scripts/dev.sh modelVersion=2 in 156.16163699980825ms
+2025-05-25 20:50:40.232 [warning] Failed to sync changes for scripts/dev.sh, version=4, retrying (attempt 1) [invalid_argument] Version mismatch: VersionMismatch: Expects current file version 2 to be one less than the new update version 4
+2025-05-25 20:50:40.301 [warning] Failed to sync changes for scripts/dev.sh, version=4, retrying (attempt 2) [invalid_argument] Version mismatch: VersionMismatch: Expects current file version 2 to be one less than the new update version 4
+2025-05-25 20:50:40.436 [warning] Failed to sync changes for scripts/dev.sh, version=4, retrying (attempt 3) [invalid_argument] Version mismatch: VersionMismatch: Expects current file version 2 to be one less than the new update version 4
+2025-05-25 20:50:40.437 [error] Failed to sync changes for scripts/dev.sh, version=4, attempting full file sync [invalid_argument] Version mismatch: VersionMismatch: Expects current file version 2 to be one less than the new update version 4
+2025-05-25 20:50:40.484 [info] Uploaded file scripts/dev.sh modelVersion=4 in 47.09878099989146ms
+2025-05-25 20:54:21.368 [info] Uploaded file static/css/simple.css modelVersion=4 in 149.60916200000793ms
+2025-05-25 20:54:21.371 [info] Uploaded file static/css/simple.css modelVersion=4 in 154.54563900083303ms
+2025-05-25 20:54:21.372 [info] Uploaded file static/css/simple.css modelVersion=2 in 242.9937060000375ms
+2025-05-25 20:54:21.373 [info] Uploaded file static/css/simple.css modelVersion=2 in 165.53524200059474ms
+2025-05-25 20:54:22.325 [warning] Failed to sync changes for static/css/simple.css, version=4, retrying (attempt 1) [invalid_argument] Version mismatch: VersionMismatch: Expects current file version 2 to be one less than the new update version 4
+2025-05-25 20:54:22.387 [warning] Failed to sync changes for static/css/simple.css, version=4, retrying (attempt 2) [invalid_argument] Version mismatch: VersionMismatch: Expects current file version 2 to be one less than the new update version 4
+2025-05-25 20:54:22.475 [warning] Failed to sync changes for static/css/simple.css, version=4, retrying (attempt 3) [invalid_argument] Version mismatch: VersionMismatch: Expects current file version 2 to be one less than the new update version 4
+2025-05-25 20:54:22.476 [error] Failed to sync changes for static/css/simple.css, version=4, attempting full file sync [invalid_argument] Version mismatch: VersionMismatch: Expects current file version 2 to be one less than the new update version 4
+2025-05-25 20:54:22.538 [info] Uploaded file static/css/simple.css modelVersion=4 in 62.7606339994818ms
+2025-05-25 20:55:08.530 [info] Uploaded file build-simple.sh modelVersion=2 in 50.46073800045997ms
+2025-05-25 20:55:08.531 [info] Uploaded file build-simple.sh modelVersion=2 in 48.53793300036341ms
+2025-05-25 20:55:08.560 [info] Uploaded file build-simple.sh modelVersion=4 in 47.999289999715984ms
+2025-05-25 20:55:08.561 [info] Uploaded file build-simple.sh modelVersion=4 in 50.26985800080001ms
+2025-05-25 21:07:45.042 [info] Uploaded file internal/router/router.go modelVersion=23 in 214.38558699935675ms
+2025-05-25 21:07:45.043 [info] Uploaded file internal/router/router.go modelVersion=23 in 156.679049000144ms
+2025-05-25 21:07:45.043 [info] Uploaded file internal/router/router.go modelVersion=23 in 158.34281500056386ms
+2025-05-25 21:15:11.528 [info] Uploaded file build-simple.sh modelVersion=1 in 198.5673409998417ms
+2025-05-25 21:15:11.528 [info] Handled visible editors change in 370.1794259995222ms
+2025-05-25 21:15:12.615 [info] Handled visible editors change in 0.319819999858737ms
+2025-05-25 21:15:12.690 [info] Handled visible editors change in 0.8405159991234541ms
+2025-05-25 21:15:13.802 [info] Handled visible editors change in 0.2833640016615391ms
+2025-05-25 21:15:13.949 [info] Handled visible editors change in 1.2481680009514093ms
+2025-05-25 21:15:15.033 [info] Handled visible editors change in 0.8370949998497963ms
+2025-05-25 21:15:15.122 [info] Handled visible editors change in 0.8309730011969805ms
+2025-05-25 21:15:17.683 [info] Handled visible editors change in 0.30640799924731255ms
+2025-05-25 21:15:17.952 [info] Uploaded file static/css/simple.css modelVersion=1 in 43.88687499985099ms
+2025-05-25 21:15:17.952 [info] Handled visible editors change in 193.8372819982469ms
+2025-05-25 21:15:18.590 [info] Handled visible editors change in 0.3072289992123842ms
+2025-05-25 21:15:18.674 [info] Handled visible editors change in 1.1615730002522469ms
+2025-05-25 21:15:20.278 [info] Handled visible editors change in 0.4697089996188879ms
+2025-05-25 21:15:20.640 [info] Uploaded file scripts/dev.sh modelVersion=1 in 44.266990000382066ms
+2025-05-25 21:15:20.640 [info] Handled visible editors change in 234.85679599829018ms
+2025-05-25 21:15:31.941 [info] Handled visible editors change in 0.3383630011230707ms
+2025-05-25 21:15:32.463 [info] Uploaded file tailwind.config.js modelVersion=1 in 52.946246000006795ms
+2025-05-25 21:15:32.463 [info] Handled visible editors change in 470.04754300042987ms
+2025-05-25 21:15:33.100 [info] Handled visible editors change in 0.533160999417305ms
+2025-05-25 21:15:33.143 [info] Handled visible editors change in 0.9697579983621836ms
+2025-05-25 21:15:35.487 [info] Handled visible editors change in 0.35483199916779995ms
+2025-05-25 21:15:35.714 [info] Uploaded file internal/router/router.go modelVersion=23 in 39.90368399955332ms
+2025-05-25 21:15:35.714 [info] Handled visible editors change in 197.40853499993682ms

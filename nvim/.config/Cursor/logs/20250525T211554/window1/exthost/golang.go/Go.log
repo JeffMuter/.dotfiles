@@ -1,0 +1,18 @@
+2025-05-25 21:16:02.363 [info] Try to start language server - activation (enabled: true)
+2025-05-25 21:16:03.102 [info] Running language server gopls(v0.18.1/go1.23.9)
+2025-05-25 22:07:07.612 [info] Running checks...
+2025-05-25 22:07:07.613 [info] Starting linting the current package at /home/emerald/repos/goDial/internal/router
+2025-05-25 22:07:09.431 [info] /home/emerald/repos/goDial/internal/router>Finished running tool: /home/emerald/go/bin/staticcheck
+2025-05-25 22:07:09.431 [info] 
+2025-05-25 22:07:10.567 [info] Running checks...
+2025-05-25 22:07:10.567 [info] Starting linting the current package at /home/emerald/repos/goDial/internal/router
+2025-05-25 22:07:10.888 [info] /home/emerald/repos/goDial/internal/router>Finished running tool: /home/emerald/go/bin/staticcheck
+2025-05-25 22:07:10.888 [info] 
+2025-05-25 22:07:18.658 [info] Running checks...
+2025-05-25 22:07:18.658 [info] Starting linting the current package at /home/emerald/repos/goDial/internal/router
+2025-05-25 22:07:19.222 [info] /home/emerald/repos/goDial/internal/router>Finished running tool: /home/emerald/go/bin/staticcheck
+2025-05-25 22:07:19.222 [info] 
+2025-05-25 22:07:21.932 [info] Running checks...
+2025-05-25 22:07:21.932 [info] Starting linting the current package at /home/emerald/repos/goDial/internal/router
+2025-05-25 22:07:22.297 [info] /home/emerald/repos/goDial/internal/router>Finished running tool: /home/emerald/go/bin/staticcheck
+2025-05-25 22:07:22.297 [info] 

@@ -1,0 +1,154 @@
+2025-05-27 12:44:04.441 [error] Failed to check if file sync is enabled for user {}
+2025-05-27 12:44:04.441 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-27 12:44:04.441 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-27 12:44:04.441 [info] [registerEventListeners] Registering event listeners
+2025-05-27 12:44:04.854 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-27 12:44:05.330 [info] Fetched fsConfig in 475.13407299999926ms
+2025-05-27 12:44:05.330 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-27 12:44:06.129 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-27 12:44:06.955 [info] Starting sync of visible tabs
+2025-05-27 12:44:06.955 [info] Synced all visible tabs in 0.8002099999994243ms
+2025-05-27 12:44:07.136 [info] Fetched fsConfig in 1006.6797669999996ms
+2025-05-27 12:44:07.136 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-27 12:44:07.136 [info] File sync enabled status: true
+2025-05-27 12:44:07.136 [info] Starting sync of visible tabs
+2025-05-27 12:44:07.136 [info] Synced all visible tabs in 0.32341400000041176ms
+2025-05-27 12:44:07.197 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-27 12:44:07.537 [info] Fetched fsConfig in 338.9914809999991ms
+2025-05-27 12:44:07.537 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-27 12:47:30.101 [info] Handled visible editors change in 1.5982609999773558ms
+2025-05-27 13:22:56.074 [info] Uploaded file scripts/dev.sh modelVersion=2 in 587.6820420003496ms
+2025-05-27 13:22:56.078 [info] Uploaded file scripts/dev.sh modelVersion=2 in 593.9878370002843ms
+2025-05-27 13:23:27.409 [info] Uploaded file scripts/cleanup-port.sh modelVersion=4 in 156.212567999959ms
+2025-05-27 13:23:27.410 [info] Uploaded file scripts/cleanup-port.sh modelVersion=4 in 154.1635969998315ms
+2025-05-27 13:23:27.411 [info] Uploaded file scripts/cleanup-port.sh modelVersion=4 in 153.38799399975687ms
+2025-05-27 13:23:27.413 [info] Uploaded file scripts/cleanup-port.sh modelVersion=4 in 153.60743299964815ms
+2025-05-27 13:24:01.799 [info] Uploaded file package.json modelVersion=2 in 104.8956289999187ms
+2025-05-27 13:24:01.800 [info] Uploaded file package.json modelVersion=2 in 102.59203199995682ms
+2025-05-27 13:35:35.967 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-27 13:35:36.062 [info] Fetched fsConfig in 94.72782000014558ms
+2025-05-27 13:35:36.062 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-27 13:35:36.064 [info] File sync enabled status: true
+2025-05-27 13:35:36.064 [info] Starting sync of visible tabs
+2025-05-27 13:35:36.064 [info] Synced all visible tabs in 1.2610869999043643ms
+2025-05-27 13:59:30.404 [info] Uploaded file init.lua modelVersion=2 in 311.88795799948275ms
+2025-05-27 13:59:30.405 [info] Uploaded file init.lua modelVersion=2 in 354.2961699999869ms
+2025-05-27 13:59:30.506 [info] Uploaded file init.lua modelVersion=3 in 121.5000530006364ms
+2025-05-27 13:59:30.867 [info] Synced file init.lua modelVersion=5 in 101.98855599947274ms
+2025-05-27 13:59:40.589 [info] Synced file init.lua modelVersion=7 in 79.94930000044405ms
+2025-05-27 13:59:42.324 [info] Synced file init.lua modelVersion=13 in 115.78577399998903ms
+2025-05-27 14:00:17.228 [info] Uploaded file init.lua modelVersion=2 in 92.45174300018698ms
+2025-05-27 14:00:17.229 [info] Uploaded file init.lua modelVersion=2 in 110.3511429997161ms
+2025-05-27 14:00:17.235 [info] Uploaded file init.lua modelVersion=2 in 103.04140699934214ms
+2025-05-27 14:00:17.236 [info] Uploaded file init.lua modelVersion=2 in 122.15882000047714ms
+2025-05-27 14:00:31.749 [info] Uploaded file /home/emerald/.config/nvim/init.lua modelVersion=2 in 283.9371990002692ms
+2025-05-27 14:00:31.749 [info] Uploaded file /home/emerald/.config/nvim/init.lua modelVersion=2 in 286.60584000032395ms
+2025-05-27 14:00:33.300 [info] Synced file /home/emerald/.config/nvim/init.lua modelVersion=3 in 103.86641999986023ms
+2025-05-27 14:00:44.979 [info] Synced file /home/emerald/.config/nvim/init.lua modelVersion=5 in 247.01127099990845ms
+2025-05-27 14:00:47.230 [info] Synced file /home/emerald/.config/nvim/init.lua modelVersion=6 in 237.0416670003906ms
+2025-05-27 14:00:48.024 [info] Synced file /home/emerald/.config/nvim/init.lua modelVersion=10 in 284.7317310003564ms
+2025-05-27 14:00:48.251 [info] Synced file /home/emerald/.config/nvim/init.lua modelVersion=10 in 165.72743300069124ms
+2025-05-27 14:13:21.193 [info] Uploaded file scripts/air-build.sh modelVersion=2 in 355.1224989993498ms
+2025-05-27 14:13:21.204 [info] Uploaded file scripts/air-build.sh modelVersion=3 in 356.08121700026095ms
+2025-05-27 14:13:21.205 [info] Uploaded file scripts/air-build.sh modelVersion=2 in 467.9346730001271ms
+2025-05-27 14:13:22.028 [warning] Failed to sync changes for scripts/air-build.sh, version=3, retrying (attempt 1) [invalid_argument] File length mismatch: FileLengthMismatch: New size would be: 869, but expected size is: 1856
+2025-05-27 14:13:22.243 [warning] Failed to sync changes for scripts/air-build.sh, version=3, retrying (attempt 2) [invalid_argument] File length mismatch: FileLengthMismatch: New size would be: 869, but expected size is: 1856
+2025-05-27 14:13:22.399 [warning] Failed to sync changes for scripts/air-build.sh, version=3, retrying (attempt 3) [invalid_argument] File length mismatch: FileLengthMismatch: New size would be: 869, but expected size is: 1856
+2025-05-27 14:13:22.399 [error] Failed to sync changes for scripts/air-build.sh, version=3, attempting full file sync [invalid_argument] File length mismatch: FileLengthMismatch: New size would be: 869, but expected size is: 1856
+2025-05-27 14:13:22.560 [info] Uploaded file scripts/air-build.sh modelVersion=3 in 160.2325079999864ms
+2025-05-27 14:14:04.341 [info] Uploaded file scripts/dev.sh modelVersion=2 in 299.0615569995716ms
+2025-05-27 14:14:04.347 [info] Uploaded file scripts/dev.sh modelVersion=2 in 303.6887079998851ms
+2025-05-27 14:14:04.399 [info] Uploaded file scripts/dev.sh modelVersion=3 in 252.23358799982816ms
+2025-05-27 14:14:27.803 [info] Uploaded file cmd/main.go modelVersion=2 in 180.2283409992233ms
+2025-05-27 14:14:27.804 [info] Uploaded file cmd/main.go modelVersion=2 in 183.7803899999708ms
+2025-05-27 14:14:40.848 [info] Uploaded file internal/router/router.go modelVersion=3 in 170.17737699951977ms
+2025-05-27 14:14:41.203 [info] Uploaded file internal/router/router.go modelVersion=3 in 522.0082529997453ms
+2025-05-27 14:14:41.206 [info] Uploaded file internal/router/router.go modelVersion=3 in 517.1299000000581ms
+2025-05-27 14:14:41.962 [info] Synced file internal/router/router.go modelVersion=4 in 175.29857799969614ms
+2025-05-27 14:15:05.541 [info] Uploaded file package.json modelVersion=2 in 154.99163199961185ms
+2025-05-27 14:15:05.541 [info] Uploaded file package.json modelVersion=2 in 152.8907519998029ms
+2025-05-27 14:18:46.773 [info] Handled visible editors change in 1.3577209999784827ms
+2025-05-27 14:24:20.280 [info] Uploaded file internal/router/router.go modelVersion=6 in 634.3279309999198ms
+2025-05-27 14:24:20.282 [info] Uploaded file internal/router/router.go modelVersion=5 in 962.4343340005726ms
+2025-05-27 14:24:20.286 [info] Uploaded file internal/router/router.go modelVersion=7 in 550.7820929996669ms
+2025-05-27 14:24:20.288 [info] Uploaded file internal/router/router.go modelVersion=7 in 614.886916000396ms
+2025-05-27 14:24:20.291 [info] Uploaded file internal/router/router.go modelVersion=7 in 567.3434379994869ms
+2025-05-27 14:24:20.315 [info] Uploaded file internal/router/router.go modelVersion=5 in 992.0681090001017ms
+2025-05-27 14:27:38.949 [info] Uploaded file scripts/air-build.sh modelVersion=3 in 5561.805489000864ms
+2025-05-27 14:27:38.951 [info] Uploaded file scripts/air-build.sh modelVersion=3 in 5880.133722999133ms
+2025-05-27 14:27:38.953 [info] Uploaded file scripts/air-build.sh modelVersion=3 in 5887.754871999845ms
+2025-05-27 14:27:38.956 [info] Uploaded file scripts/air-build.sh modelVersion=3 in 5886.537808999419ms
+2025-05-27 14:27:38.958 [info] Uploaded file scripts/air-build.sh modelVersion=3 in 5565.730327999219ms
+2025-05-27 14:33:48.771 [info] Uploaded file cmd/main.go modelVersion=2 in 1144.032534999773ms
+2025-05-27 14:33:48.772 [info] Uploaded file cmd/main.go modelVersion=2 in 1131.9216170003638ms
+2025-05-27 14:33:48.772 [info] Uploaded file cmd/main.go modelVersion=2 in 1491.6396180000156ms
+2025-05-27 14:33:48.773 [info] Uploaded file cmd/main.go modelVersion=2 in 1396.8711290005594ms
+2025-05-27 14:34:02.757 [info] Uploaded file scripts/air-build.sh modelVersion=3 in 188.06176100019366ms
+2025-05-27 14:34:03.045 [info] Uploaded file scripts/air-build.sh modelVersion=3 in 472.9014299996197ms
+2025-05-27 14:34:03.046 [info] Uploaded file scripts/air-build.sh modelVersion=3 in 470.646199000068ms
+2025-05-27 14:36:08.518 [info] Uploaded file scripts/dev.sh modelVersion=2 in 711.1661109998822ms
+2025-05-27 14:36:08.521 [info] Uploaded file scripts/dev.sh modelVersion=2 in 716.2720200000331ms
+2025-05-27 14:36:08.524 [info] Uploaded file scripts/dev.sh modelVersion=2 in 338.5534210000187ms
+2025-05-27 14:36:08.528 [info] Uploaded file scripts/dev.sh modelVersion=2 in 332.91098000016063ms
+2025-05-27 14:36:26.435 [info] Uploaded file internal/router/router.go modelVersion=8 in 222.58156100008637ms
+2025-05-27 14:36:26.436 [info] Uploaded file internal/router/router.go modelVersion=8 in 214.33098299987614ms
+2025-05-27 14:36:39.955 [info] Synced file scripts/dev.sh modelVersion=4 in 248.0828619999811ms
+2025-05-27 14:36:41.489 [info] Synced file scripts/dev.sh modelVersion=8 in 275.7404420003295ms
+2025-05-27 14:36:56.226 [info] Uploaded file scripts/dev-check.sh modelVersion=2 in 110.03590700030327ms
+2025-05-27 14:36:56.231 [info] Uploaded file scripts/dev-check.sh modelVersion=2 in 113.07036400027573ms
+2025-05-27 14:36:56.276 [info] Uploaded file scripts/dev-check.sh modelVersion=4 in 110.36444400064647ms
+2025-05-27 14:36:56.277 [info] Uploaded file scripts/dev-check.sh modelVersion=4 in 109.63686599954963ms
+2025-05-27 14:38:26.164 [info] Uploaded file package.json modelVersion=2 in 545.6490740003064ms
+2025-05-27 14:38:26.166 [info] Uploaded file package.json modelVersion=2 in 549.0527090001851ms
+2025-05-27 14:43:34.193 [info] Uploaded file scripts/air-build.sh modelVersion=4 in 479.64630900043994ms
+2025-05-27 14:43:34.199 [info] Uploaded file scripts/air-build.sh modelVersion=4 in 481.61335999984294ms
+2025-05-27 14:43:34.199 [info] Uploaded file scripts/air-build.sh modelVersion=4 in 386.46252600010484ms
+2025-05-27 14:43:34.205 [info] Uploaded file scripts/air-build.sh modelVersion=4 in 187.20546499919146ms
+2025-05-27 14:43:34.206 [info] Uploaded file scripts/air-build.sh modelVersion=4 in 394.5652270000428ms
+2025-05-27 14:43:34.207 [info] Uploaded file scripts/air-build.sh modelVersion=4 in 189.77180599980056ms
+2025-05-27 14:43:43.450 [info] Uploaded file cmd/main.go modelVersion=2 in 101.79968500044197ms
+2025-05-27 14:43:43.451 [info] Uploaded file cmd/main.go modelVersion=2 in 104.71117500029504ms
+2025-05-27 14:43:54.317 [info] Uploaded file scripts/test-reload.sh modelVersion=2 in 137.67254099994898ms
+2025-05-27 14:43:54.318 [info] Uploaded file scripts/test-reload.sh modelVersion=2 in 140.31865200027823ms
+2025-05-27 14:43:54.339 [info] Uploaded file scripts/test-reload.sh modelVersion=4 in 145.09115699958056ms
+2025-05-27 14:43:54.358 [info] Uploaded file scripts/test-reload.sh modelVersion=4 in 160.1692979997024ms
+2025-05-28 16:20:57.312 [info] Uploaded file internal/router/router_test.go modelVersion=2 in 576.307757999748ms
+2025-05-28 16:20:57.313 [info] Uploaded file internal/router/router_test.go modelVersion=2 in 706.129278998822ms
+2025-05-28 16:20:57.843 [info] Synced file internal/router/router_test.go modelVersion=3 in 95.51728099957108ms
+2025-05-28 16:21:25.991 [info] Synced file internal/router/router_test.go modelVersion=5 in 180.92454500123858ms
+2025-05-28 16:21:27.456 [info] Synced file internal/router/router_test.go modelVersion=9 in 188.30831899866462ms
+2025-05-28 16:21:28.325 [info] Synced file internal/router/router_test.go modelVersion=10 in 97.40966299921274ms
+2025-05-28 16:21:51.443 [info] Synced file internal/router/router_test.go modelVersion=11 in 297.22537599876523ms
+2025-05-28 16:21:51.928 [info] Synced file internal/router/router_test.go modelVersion=12 in 185.45138999819756ms
+2025-05-28 16:22:03.671 [info] Synced file internal/router/router_test.go modelVersion=14 in 115.36260500177741ms
+2025-05-28 16:22:05.665 [info] Synced file internal/router/router_test.go modelVersion=18 in 133.55042700096965ms
+2025-05-28 16:22:06.265 [info] Synced file internal/router/router_test.go modelVersion=19 in 191.25607300177217ms
+2025-05-28 16:22:14.787 [info] Synced file internal/router/router_test.go modelVersion=21 in 210.93321200087667ms
+2025-05-28 16:22:17.180 [info] Synced file internal/router/router_test.go modelVersion=25 in 215.52479599788785ms
+2025-05-28 16:22:17.592 [info] Synced file internal/router/router_test.go modelVersion=26 in 87.55469200015068ms
+2025-05-28 16:22:42.444 [info] Uploaded file internal/router/handlers.go modelVersion=2 in 79.9838550016284ms
+2025-05-28 16:22:42.455 [info] Uploaded file internal/router/handlers.go modelVersion=2 in 87.19501999765635ms
+2025-05-28 16:23:19.103 [info] Synced file internal/router/router_test.go modelVersion=27 in 232.0179149992764ms
+2025-05-28 16:23:19.259 [info] Synced file internal/router/router_test.go modelVersion=28 in 95.8196760006249ms
+2025-05-28 16:23:51.438 [info] Synced file internal/router/router_test.go modelVersion=29 in 226.5148689970374ms
+2025-05-29 14:04:45.733 [info] Uploaded file internal/database/users_test.go modelVersion=2 in 912.0098640024662ms
+2025-05-29 14:04:45.735 [info] Uploaded file internal/database/users_test.go modelVersion=4 in 872.1823500022292ms
+2025-05-29 14:04:45.735 [info] Uploaded file internal/database/users_test.go modelVersion=4 in 868.6290030032396ms
+2025-05-29 14:04:45.740 [info] Uploaded file internal/database/users_test.go modelVersion=2 in 1057.1216389983892ms
+2025-05-29 14:04:47.552 [warning] Failed to sync changes for internal/database/users_test.go, version=5, retrying (attempt 1) [invalid_argument] Version mismatch: VersionMismatch: Expects current file version 2 to be one less than the new update version 5
+2025-05-29 14:04:47.669 [warning] Failed to sync changes for internal/database/users_test.go, version=5, retrying (attempt 2) [invalid_argument] Version mismatch: VersionMismatch: Expects current file version 2 to be one less than the new update version 5
+2025-05-29 14:04:47.816 [warning] Failed to sync changes for internal/database/users_test.go, version=5, retrying (attempt 3) [invalid_argument] Version mismatch: VersionMismatch: Expects current file version 2 to be one less than the new update version 5
+2025-05-29 14:04:47.817 [error] Failed to sync changes for internal/database/users_test.go, version=5, attempting full file sync [invalid_argument] Version mismatch: VersionMismatch: Expects current file version 2 to be one less than the new update version 5
+2025-05-29 14:04:47.972 [info] Uploaded file internal/database/users_test.go modelVersion=5 in 155.6797310039401ms
+2025-05-29 14:05:44.197 [info] Uploaded file internal/router/handlers_test.go modelVersion=4 in 383.18690200150013ms
+2025-05-29 14:05:44.201 [info] Uploaded file internal/router/handlers_test.go modelVersion=4 in 374.38818500190973ms
+2025-05-29 14:05:44.202 [info] Uploaded file internal/router/handlers_test.go modelVersion=4 in 389.74123100191355ms
+2025-05-29 14:05:44.291 [info] Uploaded file internal/router/handlers_test.go modelVersion=4 in 462.47152099758387ms
+2025-05-29 14:05:47.358 [info] Synced file internal/router/handlers_test.go modelVersion=5 in 101.89641399681568ms
+2025-05-29 14:24:29.472 [info] Uploaded file internal/router/handlers_test.go modelVersion=6 in 386.05600100010633ms
+2025-05-29 14:24:29.477 [info] Uploaded file internal/router/handlers_test.go modelVersion=6 in 393.72593899816275ms
+2025-05-29 14:58:46.210 [info] Starting sync of visible tabs
+2025-05-29 14:58:46.210 [info] Synced all visible tabs in 62.82402399927378ms
+2025-05-29 14:58:46.554 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-29 14:58:46.643 [info] Fetched fsConfig in 88.39435800164938ms
+2025-05-29 14:58:46.643 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}

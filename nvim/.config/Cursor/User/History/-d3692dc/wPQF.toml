@@ -1,0 +1,39 @@
+root = "."
+tmp_dir = "tmp"
+
+[build]
+cmd = "./scripts/air-build.sh"
+bin = "./tmp/main"
+full_bin = "./tmp/main"
+include_ext = ["go", "templ", "html", "css", "js"]
+exclude_dir = ["assets", "tmp", "vendor", "node_modules"]
+include_dir = []
+exclude_file = ["*_templ.go", "**/*_templ.go"]
+exclude_regex = []
+delay = 1000
+stop_on_error = true
+log = "build-errors.log"
+kill_delay = "3s"
+send_interrupt = true
+rerun = false
+
+[log]
+time = false
+
+[color]
+main = "magenta"
+watcher = "cyan"
+build = "yellow"
+runner = "green"
+
+[misc]
+clean_on_exit = true
+
+[proxy]
+enabled = true
+proxy_port = 8080
+app_port = 8081
+
+[env]
+GO_ENV = "development"
+AIR_ENABLED = "1" 

@@ -1,0 +1,22 @@
+2025-05-23 15:49:24.414 [info] (Client) Pylance async client (2024.8.1) started with python extension (2024.12.3)
+2025-05-23 15:49:25.432 [info] [Info  - 3:49:25 PM] (2392) Pylance language server 2024.8.1 (pyright version 1.1.373, commit ee424479) starting
+2025-05-23 15:49:25.432 [info] [Info  - 3:49:25 PM] (2392) Server root directory: file:///home/emerald/.cursor/extensions/ms-python.vscode-pylance-2024.8.1/dist
+2025-05-23 15:49:25.444 [info] [Info  - 3:49:25 PM] (2392) Starting service instance "pyDial"
+2025-05-23 15:49:25.597 [info] [Info  - 3:49:25 PM] (2392) Setting pythonPath for service "pyDial": "/home/emerald/repos/pyDial/venv/bin/python"
+2025-05-23 15:49:25.597 [info] [Info  - 3:49:25 PM] (2392) Setting environmentName for service "pyDial": "3.11.11 (venv venv)"
+2025-05-23 15:49:25.605 [info] [Info  - 3:49:25 PM] (2392) No include entries specified; assuming /home/emerald/repos/pyDial
+2025-05-23 15:49:25.608 [info] [Info  - 3:49:25 PM] (2392) Auto-excluding **/node_modules
+2025-05-23 15:49:25.609 [info] [Info  - 3:49:25 PM] (2392) Auto-excluding **/__pycache__
+2025-05-23 15:49:25.609 [info] [Info  - 3:49:25 PM] (2392) Auto-excluding **/.*
+2025-05-23 15:49:25.758 [info] [Info  - 3:49:25 PM] (2392) Assuming Python version 3.11.11.final.0
+2025-05-23 15:49:25.940 [info] [Info  - 3:49:25 PM] (2392) Auto-excluding /home/emerald/repos/pyDial/venv
+2025-05-23 15:49:25.945 [info] [Info  - 3:49:25 PM] (2392) Found 2 source files
+2025-05-23 15:49:26.601 [info] [Info  - 3:49:26 PM] (2392) Background analysis(1) root directory: file:///home/emerald/.cursor/extensions/ms-python.vscode-pylance-2024.8.1/dist
+2025-05-23 15:49:26.604 [info] [Info  - 3:49:26 PM] (2392) Background analysis(1) started
+2025-05-23 15:49:27.102 [info] [Info  - 3:49:27 PM] (2392) Indexer background runner(2) root directory: file:///home/emerald/.cursor/extensions/ms-python.vscode-pylance-2024.8.1/dist (index)
+2025-05-23 15:49:27.105 [info] [Info  - 3:49:27 PM] (2392) Indexing(2) started
+2025-05-23 15:49:28.185 [info] [Info  - 3:49:28 PM] (2392) scanned(2) 71 files over 1 exec env
+2025-05-23 15:49:28.676 [info] [Info  - 3:49:28 PM] (2392) indexed(2) 57 files over 1 exec env
+2025-05-23 15:49:28.743 [info] [Info  - 3:49:28 PM] (2392) Indexing finished(2).
+2025-05-23 15:49:30.416 [info] [Info  - 3:49:30 PM] (2392) [BG(1)] Long operation: checking: file:///home/emerald/repos/pyDial/pydial.py (3419ms)
+2025-05-23 15:49:30.416 [info] [Info  - 3:49:30 PM] (2392) [BG(1)] Long operation: analyzing: file:///home/emerald/repos/pyDial/pydial.py (3696ms)

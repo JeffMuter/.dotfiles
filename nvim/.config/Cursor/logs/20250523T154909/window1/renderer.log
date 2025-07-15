@@ -1,0 +1,60 @@
+2025-05-23 15:49:10.776 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-23 15:49:10.777 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-23 15:49:10.777 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-23 15:49:10.778 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-23 15:49:10.778 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-23 15:49:10.779 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-23 15:49:10.779 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-23 15:49:10.779 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-23 15:49:10.780 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-23 15:49:10.780 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'anysphere.remote-wsl' wants API proposal 'cursorTracing' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-23 15:49:10.781 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'anysphere.remote-ssh' wants API proposal 'cursorTracing' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-23 15:49:10.781 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'anysphere.remote-containers' wants API proposal 'cursorTracing' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-23 15:49:10.781 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'anysphere.remote-tunnels' wants API proposal 'cursorTracing' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-23 15:49:10.782 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'anysphere.cpptools' wants API proposal 'cursorTracing' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-23 15:49:10.782 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'anysphere.cursorpyright' wants API proposal 'cursorTracing' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-23 15:49:10.832 [warning] Missing property "modes" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-23 15:49:10.833 [warning] Missing property "modes2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-23 15:49:10.833 [warning] Missing property "modes3" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-23 15:49:10.833 [warning] Missing property "explicitEnableOrDisable" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-23 15:49:10.833 [warning] Missing property "lastBackgroundBugbotAt" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-23 15:49:11.856 [info] Started local extension host with pid 1805.
+2025-05-23 15:49:13.918 [error] Extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-23 15:49:13.919 [error] Extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-23 15:49:13.919 [error] Extension 'ms-python.python' wants API proposal 'terminalShellIntegration' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-23 15:49:13.939 [info] Placing extension(s) vscodevim.vim on a separate extension host.
+2025-05-23 15:49:14.946 [info] Started local extension host with pid 1878.
+2025-05-23 15:49:15.799 [error] [Extension Host] (node:1805) ExperimentalWarning: Use `importAttributes` instead of `importAssertions`
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-05-23 15:49:17.086 [error] Bundled Anysphere extension 'anysphere.remote-ssh' not found
+2025-05-23 15:49:17.087 [error] Bundled Anysphere extension 'anysphere.remote-wsl' not found
+2025-05-23 15:49:17.087 [error] Bundled Anysphere extension 'anysphere.remote-containers' not found
+2025-05-23 15:49:18.528 [error] [Extension Host] (node:1878) ExperimentalWarning: Use `importAttributes` instead of `importAssertions`
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-05-23 15:49:23.899 [info] [perf] Render performance baseline is 113ms
+2025-05-23 16:27:34.627 [error] [1df] potential listener LEAK detected, having 175 listeners already. MOST frequent listener (1):: Error
+    at omn.create (vscode-file://vscode-app/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:44:11433)
+    at BTi.q (vscode-file://vscode-app/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:46:1377)
+    at new mnt (vscode-file://vscode-app/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:174:131110)
+    at Sh.Mb (vscode-file://vscode-app/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:373:12270)
+    at new Sh (vscode-file://vscode-app/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:373:10642)
+    at xMi.o (vscode-file://vscode-app/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3322:1592)
+    at xMi.createInstance (vscode-file://vscode-app/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3322:1089)
+    at new pre (vscode-file://vscode-app/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3191:9166)
+    at xMi.o (vscode-file://vscode-app/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3322:1592)
+    at xMi.createInstance (vscode-file://vscode-app/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3322:1089) [1df] potential listener LEAK detected, having 175 listeners already. MOST frequent listener (1):
+2025-05-23 16:27:36.557 [error] spawn dumb ENOENT: Error: spawn dumb ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) spawn dumb ENOENT
+2025-05-23 16:30:27.821 [error] [14d] potential listener LEAK detected, having 175 listeners already. MOST frequent listener (1):: Error
+    at omn.create (vscode-file://vscode-app/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:44:11433)
+    at C0n.q [as onDidChange] (vscode-file://vscode-app/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:46:1377)
+    at new Jwn (vscode-file://vscode-app/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2417:12349)
+    at EPi.registerEditorListenersToEditor (vscode-file://vscode-app/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4980:23829)
+    at Qle.value (vscode-file://vscode-app/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4980:22677)
+    at $.B (vscode-file://vscode-app/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:46:2392)
+    at $.C (vscode-file://vscode-app/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:46:2462)
+    at $.fire (vscode-file://vscode-app/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:46:2680)
+    at Iai.addCodeEditor (vscode-file://vscode-app/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:3012:18383)
+    at new Sh (vscode-file://vscode-app/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:373:12147) [14d] potential listener LEAK detected, having 175 listeners already. MOST frequent listener (1):

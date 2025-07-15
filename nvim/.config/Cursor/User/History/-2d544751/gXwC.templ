@@ -1,0 +1,25 @@
+package layouts
+
+import "goDial/internal/templates/components"
+
+templ Home(title string) {
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{ title } - goDial</title>
+    <link href="/static/css/output.css" rel="stylesheet" />
+</head>
+
+<body class="min-h-screen bg-base-100 text-base-content">
+    @components.Navbar()
+    <main>
+        { children... }
+    </main>
+    @components.Footer()
+</body>
+
+</html>
+}

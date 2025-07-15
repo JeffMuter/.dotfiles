@@ -1,0 +1,203 @@
+2025-05-23 15:49:20.401 [info] [main] Log level: Info
+2025-05-23 15:49:20.401 [info] [main] Validating found git in: "git"
+2025-05-23 15:49:20.401 [info] [main] Using git "2.47.1" from "git"
+2025-05-23 15:49:20.401 [info] [Model][doInitialScan] Initial repository scan started
+2025-05-23 15:49:20.401 [info] > git rev-parse --show-toplevel [22ms]
+2025-05-23 15:49:20.401 [info] > git rev-parse --git-dir --git-common-dir [20ms]
+2025-05-23 15:49:20.401 [info] [Model][openRepository] Opened repository: /home/emerald/repos/pyDial
+2025-05-23 15:49:20.401 [info] > git config --get commit.template [14ms]
+2025-05-23 15:49:20.401 [info] > git rev-parse --show-toplevel [3ms]
+2025-05-23 15:49:20.401 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-05-23 15:49:20.401 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-23 15:49:20.401 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-23 15:49:20.401 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [16ms]
+2025-05-23 15:49:20.401 [info] > git status -z -uall [18ms]
+2025-05-23 15:49:20.401 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-05-23 15:49:20.401 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [29ms]
+2025-05-23 15:49:20.401 [info] > git config --get commit.template [21ms]
+2025-05-23 15:49:20.401 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-23 15:49:20.401 [info] > git config --local branch.master.vscode-merge-base [21ms]
+2025-05-23 15:49:20.401 [warning] [Git][config] git config failed: Failed to execute git
+2025-05-23 15:49:20.401 [info] > git reflog master --grep-reflog=branch: Created from *. [31ms]
+2025-05-23 15:49:20.401 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [66ms]
+2025-05-23 15:49:20.401 [info] > git status -z -uall [14ms]
+2025-05-23 15:49:20.401 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [29ms]
+2025-05-23 15:49:20.401 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-05-23 15:49:20.401 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-05-23 15:49:20.401 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-05-23 15:49:22.570 [info] > git show --textconv :pydial.py [394ms]
+2025-05-23 15:49:22.570 [info] > git ls-files --stage -- /home/emerald/repos/pyDial/pydial.py [378ms]
+2025-05-23 15:49:22.879 [info] > git check-ignore -v -z --stdin [234ms]
+2025-05-23 15:49:22.881 [info] > git cat-file -s f04bc0ff6e6647852bbcad49e2b8d7be1573e610 [286ms]
+2025-05-23 15:49:24.257 [info] > git blame --root --incremental 0f830c4e16118fef66420e4000c16171fdd7f6fe -- /home/emerald/repos/pyDial/pydial.py [866ms]
+2025-05-23 15:49:24.460 [info] > git config --get commit.template [71ms]
+2025-05-23 15:49:24.569 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-23 15:49:24.576 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2025-05-23 15:49:24.639 [info] > git status -z -uall [47ms]
+2025-05-23 15:49:24.668 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [60ms]
+2025-05-23 15:49:29.596 [info] > git config --global user.name [1ms]
+2025-05-23 15:49:29.622 [info] > git config --global user.email [2ms]
+2025-05-23 15:49:29.623 [info] [main] Stored git author name in global state: JeffMuter <muterjeffery@gmail.com>
+2025-05-23 15:56:26.062 [info] > git config --get commit.template [4ms]
+2025-05-23 15:56:26.074 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-23 15:56:26.076 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-05-23 15:56:26.102 [info] > git status -z -uall [13ms]
+2025-05-23 15:56:26.103 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-05-23 15:57:50.942 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-23 15:57:50.943 [info] > git config --get commit.template [13ms]
+2025-05-23 15:57:50.944 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-05-23 15:57:50.969 [info] > git status -z -uall [14ms]
+2025-05-23 15:57:50.971 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-05-23 15:57:51.035 [info] > git ls-files --stage -- /home/emerald/repos/pyDial/pydial.py [2ms]
+2025-05-23 15:57:51.049 [info] > git cat-file -s f04bc0ff6e6647852bbcad49e2b8d7be1573e610 [3ms]
+2025-05-23 15:57:51.066 [info] > git show --textconv :pydial.py [3ms]
+2025-05-23 15:59:29.575 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-23 15:59:29.609 [info] > git config --get commit.template [36ms]
+2025-05-23 15:59:29.613 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-05-23 15:59:29.662 [info] > git status -z -uall [23ms]
+2025-05-23 15:59:29.665 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-05-23 15:59:29.689 [info] > git ls-files --stage -- /home/emerald/repos/pyDial/pydial.py [3ms]
+2025-05-23 15:59:29.706 [info] > git cat-file -s f04bc0ff6e6647852bbcad49e2b8d7be1573e610 [3ms]
+2025-05-23 15:59:29.725 [info] > git show --textconv :pydial.py [3ms]
+2025-05-23 16:04:13.681 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-23 16:04:13.684 [info] > git config --get commit.template [17ms]
+2025-05-23 16:04:13.684 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-05-23 16:04:13.712 [info] > git status -z -uall [16ms]
+2025-05-23 16:04:13.713 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-05-23 16:05:14.425 [info] > git check-ignore -v -z --stdin [8ms]
+2025-05-23 16:05:15.002 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-23 16:05:15.003 [info] > git config --get commit.template [43ms]
+2025-05-23 16:05:15.009 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2025-05-23 16:05:15.045 [info] > git status -z -uall [20ms]
+2025-05-23 16:05:15.048 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-05-23 16:05:20.083 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-23 16:05:20.084 [info] > git config --get commit.template [17ms]
+2025-05-23 16:05:20.085 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-23 16:05:20.118 [info] > git status -z -uall [19ms]
+2025-05-23 16:05:20.120 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-05-23 16:05:32.291 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-23 16:05:32.292 [info] > git config --get commit.template [15ms]
+2025-05-23 16:05:32.294 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-05-23 16:05:32.325 [info] > git status -z -uall [19ms]
+2025-05-23 16:05:32.327 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-05-23 16:05:45.438 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-23 16:05:45.439 [info] > git config --get commit.template [21ms]
+2025-05-23 16:05:45.440 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-23 16:05:45.470 [info] > git status -z -uall [17ms]
+2025-05-23 16:05:45.472 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-05-23 16:05:46.674 [info] > git ls-files --stage -- /home/emerald/repos/pyDial/pydial.py [7ms]
+2025-05-23 16:05:46.695 [info] > git cat-file -s f04bc0ff6e6647852bbcad49e2b8d7be1573e610 [2ms]
+2025-05-23 16:05:46.714 [info] > git show --textconv :pydial.py [3ms]
+2025-05-23 16:05:50.524 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-23 16:05:50.543 [info] > git config --get commit.template [20ms]
+2025-05-23 16:05:50.545 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-05-23 16:05:50.581 [info] > git status -z -uall [21ms]
+2025-05-23 16:05:50.583 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-05-23 16:08:02.081 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-23 16:08:02.082 [info] > git config --get commit.template [14ms]
+2025-05-23 16:08:02.084 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-05-23 16:08:02.108 [info] > git status -z -uall [13ms]
+2025-05-23 16:08:02.113 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2025-05-23 16:08:19.390 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-23 16:08:19.392 [info] > git config --get commit.template [28ms]
+2025-05-23 16:08:19.393 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-05-23 16:08:19.425 [info] > git status -z -uall [19ms]
+2025-05-23 16:08:19.426 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-05-23 16:08:19.453 [info] > git ls-files --stage -- /home/emerald/repos/pyDial/pydial.py [2ms]
+2025-05-23 16:08:19.466 [info] > git cat-file -s f04bc0ff6e6647852bbcad49e2b8d7be1573e610 [2ms]
+2025-05-23 16:08:19.482 [info] > git show --textconv :pydial.py [2ms]
+2025-05-23 16:14:46.445 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-23 16:14:46.446 [info] > git config --get commit.template [17ms]
+2025-05-23 16:14:46.447 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-23 16:14:46.477 [info] > git status -z -uall [17ms]
+2025-05-23 16:14:46.478 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-05-23 16:15:34.056 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-23 16:15:34.058 [info] > git config --get commit.template [16ms]
+2025-05-23 16:15:34.060 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-05-23 16:15:34.083 [info] > git status -z -uall [12ms]
+2025-05-23 16:15:34.085 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-05-23 16:16:49.335 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-23 16:16:49.336 [info] > git config --get commit.template [13ms]
+2025-05-23 16:16:49.338 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-05-23 16:16:49.364 [info] > git status -z -uall [14ms]
+2025-05-23 16:16:49.366 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-05-23 16:17:15.119 [info] > git check-ignore -v -z --stdin [2ms]
+2025-05-23 16:17:15.686 [info] > git config --get commit.template [7ms]
+2025-05-23 16:17:15.704 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-23 16:17:15.706 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-05-23 16:17:15.740 [info] > git status -z -uall [19ms]
+2025-05-23 16:17:15.742 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-05-23 16:17:20.798 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-23 16:17:20.799 [info] > git config --get commit.template [16ms]
+2025-05-23 16:17:20.801 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-23 16:17:20.829 [info] > git status -z -uall [15ms]
+2025-05-23 16:17:20.830 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-05-23 16:19:49.616 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-23 16:19:49.633 [info] > git config --get commit.template [19ms]
+2025-05-23 16:19:49.634 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-05-23 16:19:49.668 [info] > git status -z -uall [19ms]
+2025-05-23 16:19:49.670 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-05-23 16:19:58.806 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-23 16:19:58.808 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-05-23 16:19:58.808 [info] > git config --get commit.template [22ms]
+2025-05-23 16:19:58.852 [info] > git status -z -uall [23ms]
+2025-05-23 16:19:58.853 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-05-23 16:20:27.111 [info] > git check-ignore -v -z --stdin [6ms]
+2025-05-23 16:20:27.659 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-23 16:20:27.660 [info] > git config --get commit.template [20ms]
+2025-05-23 16:20:27.661 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-05-23 16:20:27.693 [info] > git status -z -uall [17ms]
+2025-05-23 16:20:27.695 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-05-23 16:20:32.748 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-23 16:20:32.748 [info] > git config --get commit.template [16ms]
+2025-05-23 16:20:32.750 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-05-23 16:20:32.783 [info] > git status -z -uall [18ms]
+2025-05-23 16:20:32.785 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-05-23 16:20:54.372 [info] > git config --get commit.template [5ms]
+2025-05-23 16:20:54.385 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-23 16:20:54.387 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-23 16:20:54.412 [info] > git status -z -uall [13ms]
+2025-05-23 16:20:54.414 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-05-23 16:20:54.467 [info] > git ls-files --stage -- /home/emerald/repos/pyDial/pydial.py [7ms]
+2025-05-23 16:20:54.483 [info] > git cat-file -s f04bc0ff6e6647852bbcad49e2b8d7be1573e610 [3ms]
+2025-05-23 16:20:54.517 [info] > git show --textconv :pydial.py [5ms]
+2025-05-23 16:33:58.546 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-23 16:33:58.560 [info] > git config --get commit.template [16ms]
+2025-05-23 16:33:58.562 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-05-23 16:33:58.587 [info] > git status -z -uall [13ms]
+2025-05-23 16:33:58.589 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-05-23 16:34:53.476 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-23 16:34:53.477 [info] > git config --get commit.template [25ms]
+2025-05-23 16:34:53.479 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-05-23 16:34:53.507 [info] > git status -z -uall [15ms]
+2025-05-23 16:34:53.508 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-05-23 16:34:58.529 [info] > git config --get commit.template [3ms]
+2025-05-23 16:34:58.530 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-23 16:34:58.547 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-23 16:34:58.583 [info] > git status -z -uall [19ms]
+2025-05-23 16:34:58.587 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-05-23 16:35:05.645 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-23 16:35:05.647 [info] > git config --get commit.template [25ms]
+2025-05-23 16:35:05.648 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-05-23 16:35:05.683 [info] > git status -z -uall [17ms]
+2025-05-23 16:35:05.684 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-05-23 16:35:24.916 [info] > git config --get commit.template [9ms]
+2025-05-23 16:35:24.943 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-23 16:35:24.946 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-05-23 16:35:24.983 [info] > git status -z -uall [18ms]
+2025-05-23 16:35:24.985 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-05-23 16:36:45.564 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-23 16:36:45.564 [info] > git config --get commit.template [12ms]
+2025-05-23 16:36:45.566 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-05-23 16:36:45.590 [info] > git status -z -uall [13ms]
+2025-05-23 16:36:45.592 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-05-23 16:37:11.811 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-23 16:37:11.812 [info] > git config --get commit.template [25ms]
+2025-05-23 16:37:11.814 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-05-23 16:37:11.844 [info] > git status -z -uall [15ms]
+2025-05-23 16:37:11.846 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-05-23 16:37:23.102 [info] [Git][getRemotes] No remotes found in the git config file
+2025-05-23 16:37:23.103 [info] > git config --get commit.template [14ms]
+2025-05-23 16:37:23.104 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-23 16:37:23.130 [info] > git status -z -uall [14ms]
+2025-05-23 16:37:23.134 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]

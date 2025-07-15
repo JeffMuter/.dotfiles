@@ -1,0 +1,37 @@
+2025-05-25 22:14:37.190 [error] Failed to check if file sync is enabled for user {}
+2025-05-25 22:14:37.190 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-25 22:14:37.190 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-25 22:14:37.190 [info] [registerEventListeners] Registering event listeners
+2025-05-25 22:14:37.190 [error] Failed to check if file sync is enabled for user {}
+2025-05-25 22:14:37.190 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-25 22:14:37.190 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-25 22:14:41.666 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-25 22:14:41.921 [info] Fetched fsConfig in 254.61689299999853ms
+2025-05-25 22:14:41.921 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-25 22:14:41.924 [info] File sync enabled status: true
+2025-05-25 22:14:41.924 [info] Starting sync of visible tabs
+2025-05-25 22:14:42.093 [info] Uploaded file internal/router/router_test.go modelVersion=1 in 55.962814000000435ms
+2025-05-25 22:14:42.094 [info] Synced all visible tabs in 172.1743060000008ms
+2025-05-25 22:14:42.300 [info] Starting sync of visible tabs
+2025-05-25 22:14:42.349 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-25 22:14:42.354 [info] Uploaded file internal/router/router_test.go modelVersion=1 in 48.02817099999993ms
+2025-05-25 22:14:42.354 [info] Synced all visible tabs in 54.96138100000098ms
+2025-05-25 22:14:42.399 [info] Fetched fsConfig in 49.384869999999864ms
+2025-05-25 22:14:42.399 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-25 22:24:25.361 [info] Uploaded file scripts/dev.sh modelVersion=2 in 136.96833699999843ms
+2025-05-25 22:24:25.362 [info] Uploaded file scripts/dev.sh modelVersion=2 in 210.34365499997512ms
+2025-05-25 22:24:25.365 [info] Uploaded file scripts/dev.sh modelVersion=3 in 49.00092499994207ms
+2025-05-26 00:11:37.898 [info] Handled visible editors change in 1.2831830000504851ms
+2025-05-26 00:11:38.484 [info] Uploaded file internal/ai/generation_test.go modelVersion=1 in 286.5451400000602ms
+2025-05-26 00:11:38.484 [info] Handled visible editors change in 515.9337680004537ms
+2025-05-26 00:11:40.093 [info] Handled visible editors change in 0.6035059997811913ms
+2025-05-26 00:11:40.315 [info] Uploaded file internal/router/router_test.go modelVersion=1 in 59.70134500041604ms
+2025-05-26 00:11:40.316 [info] Handled visible editors change in 182.6079529998824ms
+2025-05-26 00:11:41.556 [info] Handled visible editors change in 1.1484640007838607ms
+2025-05-26 00:11:41.823 [info] Uploaded file scripts/dev.sh modelVersion=1 in 90.70324699953198ms
+2025-05-26 00:11:41.824 [info] Handled visible editors change in 175.0773949995637ms
+2025-05-26 00:11:43.545 [info] Handled visible editors change in 1.8369760001078248ms
+2025-05-26 00:11:43.789 [info] Uploaded file scripts/update-deps.sh modelVersion=1 in 51.63249900005758ms
+2025-05-26 00:11:43.789 [info] Handled visible editors change in 167.79574699979275ms
+2025-05-26 00:11:51.106 [info] Handled visible editors change in 2.064438999630511ms
+2025-05-26 00:14:36.068 [info] Handled visible editors change in 1.1885540001094341ms
