@@ -1,0 +1,55 @@
+2025-05-22 11:30:37.629 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-22 11:30:37.629 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-22 11:30:37.629 [error] Git command failed: git config --get remote.origin.url Command failed: git config --get remote.origin.url
+
+2025-05-22 11:30:37.629 [error] Error getting repo info: Command failed: git config --get remote.origin.url
+
+2025-05-22 11:30:37.629 [error] Error: Command failed: git config --get remote.origin.url
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:518:28)
+	at Pipe.<anonymous> (node:net:343:12)
+2025-05-22 11:30:37.629 [info] Using existing keys for an index
+2025-05-22 11:30:37.629 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-05-22 11:30:37.629 [info] Using existing keys for an index
+2025-05-22 11:30:37.629 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-05-22 11:30:37.629 [info] Setting global status from status tracker: synced
+2025-05-22 11:30:37.629 [info] Doing a startup handshake.
+2025-05-22 11:30:38.184 [info] Finished computing merkle tree in 105.78510099999949 ms.
+2025-05-22 11:30:38.187 [info] Doing the initial handshake with hash: 5ac68ff9f2e16566dec467ee54712cd8fc25d3cb3e008350f23f71954ab177ee
+2025-05-22 11:30:38.209 [info] Computed simhash vector of length: 256
+2025-05-22 11:30:38.209 [info] Path key hash: 36df048b3471ef857c427ce2a9dd472f8a88dfbc208967b8418135ca6670e227
+2025-05-22 11:30:38.209 [info] Handshake start
+2025-05-22 11:30:38.854 [info] Handshake timing: 653.0297629999986, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"3bef71ff-0f72-4033-bed8-22285ab9b6a5","status":"STATUS_UP_TO_DATE"}]}
+2025-05-22 11:30:38.854 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"3bef71ff-0f72-4033-bed8-22285ab9b6a5","status":"STATUS_UP_TO_DATE"}]}
+2025-05-22 11:30:38.855 [info] Starting fast remote sync.
+2025-05-22 11:30:38.855 [info] Total num embeddable files: 13
+2025-05-22 11:30:38.856 [info] Root hash: 5ac68ff9f2e16566dec467ee54712cd8fc25d3cb3e008350f23f71954ab177ee
+2025-05-22 11:30:38.858 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-05-22 11:30:38.970 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-22 11:30:38.970 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-22 11:30:38.975 [info] multiCodebaseIndexingJob dispose
+2025-05-22 11:30:38.975 [info] Aborting indexing job.
+2025-05-22 11:30:38.975 [info] Using existing keys for an index
+2025-05-22 11:30:38.975 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-05-22 11:30:38.977 [error] Error in startFastRemoteSync [canceled] This operation was aborted
+2025-05-22 11:30:38.977 [info] Indexing job successfully done or aborted.
+2025-05-22 11:30:38.988 [info] Doing a startup handshake.
+2025-05-22 11:30:39.001 [info] Finished computing merkle tree in 5.321737000000212 ms.
+2025-05-22 11:30:39.002 [info] Doing the initial handshake with hash: 5ac68ff9f2e16566dec467ee54712cd8fc25d3cb3e008350f23f71954ab177ee
+2025-05-22 11:30:39.006 [info] Computed simhash vector of length: 256
+2025-05-22 11:30:39.006 [info] Path key hash: 36df048b3471ef857c427ce2a9dd472f8a88dfbc208967b8418135ca6670e227
+2025-05-22 11:30:39.006 [info] Handshake start
+2025-05-22 11:30:39.461 [info] Handshake timing: 457.3004689999998, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"3bef71ff-0f72-4033-bed8-22285ab9b6a5","status":"STATUS_UP_TO_DATE"}]}
+2025-05-22 11:30:39.461 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"3bef71ff-0f72-4033-bed8-22285ab9b6a5","status":"STATUS_UP_TO_DATE"}]}
+2025-05-22 11:30:39.461 [info] Starting fast remote sync.
+2025-05-22 11:30:39.471 [info] Total num embeddable files: 13
+2025-05-22 11:30:39.483 [info] Root hash: 5ac68ff9f2e16566dec467ee54712cd8fc25d3cb3e008350f23f71954ab177ee
+2025-05-22 11:30:39.485 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-05-22 11:30:39.588 [info] Finished indexing repository.
+2025-05-22 11:30:39.588 [info] Indexing job successfully done or aborted.

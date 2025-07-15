@@ -1,0 +1,12 @@
+{
+  "environment": {
+    "executable": "/run/current-system/sw/bin/python3",
+    "prefix": "/nix/store/kjgslpdqchx1sm7a5h9xibi5rrqcqfnl-python3-3.12.8",
+    "version": "3.12.8.final.0",
+    "is64Bit": true,
+    "symlinks": [
+      "/run/current-system/sw/bin/python3"
+    ]
+  },
+  "symlinks": []
+}

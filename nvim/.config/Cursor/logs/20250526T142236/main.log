@@ -1,0 +1,6 @@
+2025-05-26 14:22:36.914 [info] updateURL https://api2.cursor.sh/updates/api/update/linux-x64/cursor/0.49.6/c05ceda6a14d5d96fc8b73fcf67d49573a523f00d51313ee83192e8e12a36107/stable
+2025-05-26 14:22:36.915 [info] update#setState idle
+2025-05-26 14:23:06.917 [info] update#setState checking for updates
+2025-05-26 14:23:07.033 [info] update#setState available for download
+2025-05-27 12:42:12.625 [info] Extension host with pid 7035 exited with code: 0, signal: unknown.
+2025-05-27 12:42:12.697 [info] Extension host with pid 6960 exited with code: 0, signal: unknown.

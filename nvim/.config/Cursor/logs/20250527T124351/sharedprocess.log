@@ -1,0 +1,89 @@
+2025-05-27 12:59:06.808 [error] [network] #4: https://api2.cursor.sh/extensions-control - error GET net::ERR_NETWORK_CHANGED
+2025-05-27 15:20:14.397 [error] [network] #27: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-27 15:25:15.399 [error] [network] #28: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-27 15:30:16.398 [error] [network] #29: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-27 15:35:17.399 [error] [network] #30: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-28 07:33:34.374 [error] [network] #45: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-28 07:38:35.369 [error] [network] #46: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-28 07:43:36.364 [error] [network] #47: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-28 07:48:37.364 [error] [network] #48: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-28 07:53:38.369 [error] [network] #49: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-28 07:58:39.368 [error] [network] #50: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-28 08:03:40.368 [error] [network] #51: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-28 08:08:41.367 [error] [network] #52: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-28 08:13:42.368 [error] [network] #53: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-28 08:18:43.369 [error] [network] #54: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-28 08:23:44.368 [error] [network] #55: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-28 08:28:45.367 [error] [network] #56: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-28 08:33:46.369 [error] [network] #57: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-28 08:38:47.369 [error] [network] #58: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-28 08:43:48.370 [error] [network] #59: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-28 08:48:49.377 [error] [network] #60: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-28 08:53:50.363 [error] [network] #61: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-28 08:58:51.369 [error] [network] #62: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-28 10:46:14.942 [error] [network] #63: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-28 14:55:58.725 [error] [network] #73: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-28 15:00:59.727 [error] [network] #74: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-28 15:06:00.726 [error] [network] #75: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-28 15:11:01.726 [error] [network] #76: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-28 15:16:02.726 [error] [network] #77: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-28 15:21:03.730 [error] [network] #78: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-28 15:26:04.725 [error] [network] #79: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-29 13:04:11.202 [error] [network] #122: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-29 13:09:12.197 [error] [network] #123: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-29 13:14:13.200 [error] [network] #124: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-29 13:19:14.195 [error] [network] #125: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-29 13:24:15.186 [error] [network] #126: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-29 13:29:16.196 [error] [network] #127: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-29 13:34:17.196 [error] [network] #128: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-29 13:39:18.201 [error] [network] #129: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-29 13:44:19.194 [error] [network] #130: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-29 13:49:20.196 [error] [network] #131: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-29 13:54:21.197 [error] [network] #132: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-29 14:00:33.970 [error] [network] #133: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-05-29 14:58:55.082 [info] Getting Manifest... vscodevim.vim
+2025-05-29 14:58:56.107 [info] Installing extension: vscodevim.vim {"productVersion":{"version":"0.50.7","date":"2025-05-27T16:44:21.928Z","vscodeVersion":"1.96.2"},"donotVerifySignature":true,"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/emerald/.cursor/extensions/extensions.json","path":"/home/emerald/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-05-29 14:58:56.218 [info] Started downloading extension: vscodevim.vim 1.30.1 file:///home/emerald/.config/Cursor/CachedExtensionVSIXs/cursor-vscodevim.vim-1.30.1
+2025-05-29 14:58:56.850 [info] Extracted extension to file:///home/emerald/.cursor/extensions/vscodevim.vim-1.30.1: vscodevim.vim
+2025-05-29 14:58:56.856 [info] Renamed to /home/emerald/.cursor/extensions/vscodevim.vim-1.30.1
+2025-05-29 14:58:56.877 [info] Marked extension as uninstalled vscodevim.vim-1.30.0
+2025-05-29 14:58:56.885 [info] Extension installed successfully: vscodevim.vim vscode-userdata:/home/emerald/.cursor/extensions/extensions.json
+2025-05-29 14:58:56.949 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/emerald/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/emerald/.cursor/extensions/extensions.json.vsctmp'
+    at $y.create (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:45:40451)
+    at As (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:45:40558)
+    at ao.ib (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:93:22778)
+    at ao.stat (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:93:16010)
+    at async hu.stat (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:92:3701)
+    at async ru.Ab (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:87:68123)
+2025-05-30 08:51:32.008 [error] [network] #163: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-06-01 21:34:44.753 [error] [network] #172: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-06-03 13:26:12.045 [error] [network] #199: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-06-03 13:31:13.044 [error] [network] #200: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-06-03 13:36:14.039 [error] [network] #201: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-06-03 13:41:15.050 [error] [network] #202: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-06-03 13:46:16.048 [error] [network] #203: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-06-03 13:51:17.048 [error] [network] #204: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-06-03 13:56:18.042 [error] [network] #205: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-06-03 14:01:19.040 [error] [network] #206: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-06-03 14:06:20.052 [error] [network] #207: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-06-03 14:11:21.053 [error] [network] #208: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-06-03 14:16:22.040 [error] [network] #209: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-06-03 14:21:23.040 [error] [network] #210: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-06-03 14:26:24.039 [error] [network] #211: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-06-03 14:31:25.053 [error] [network] #212: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-06-03 14:36:26.048 [error] [network] #213: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-06-03 14:41:27.041 [error] [network] #214: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-06-03 14:46:28.041 [error] [network] #215: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-06-03 14:51:29.051 [error] [network] #216: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-06-03 14:56:30.052 [error] [network] #217: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-06-03 15:01:31.050 [error] [network] #218: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-06-03 15:06:32.040 [error] [network] #219: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-06-03 15:11:33.044 [error] [network] #220: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-06-03 15:16:34.044 [error] [network] #221: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-06-03 15:21:35.049 [error] [network] #222: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-06-03 15:26:36.047 [error] [network] #223: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-06-03 15:38:18.351 [error] [network] #224: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-06-03 15:43:19.351 [error] [network] #225: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-06-03 15:48:20.350 [error] [network] #226: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-06-03 15:53:21.351 [error] [network] #227: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED
+2025-06-03 17:10:15.378 [error] [network] #234: https://api2.cursor.sh/extensions-control - error GET net::ERR_INTERNET_DISCONNECTED

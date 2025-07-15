@@ -1,0 +1,31 @@
+2025-05-25 16:20:12.046 [info] Try to start language server - activation (enabled: true)
+2025-05-25 16:20:14.297 [info] Running language server gopls(v0.18.1/go1.23.9)
+2025-05-25 19:04:32.634 [info] Running checks...
+2025-05-25 19:04:32.634 [info] Starting linting the current package at /home/emerald/repos/goDial/cmd
+2025-05-25 19:04:36.939 [info] /home/emerald/repos/goDial/cmd>Finished running tool: /home/emerald/go/bin/staticcheck
+2025-05-25 19:04:36.940 [info] /home/emerald/repos/goDial/cmd/main.go:7:2 no required module provides package github.com/emerald/goDial/internal/router; to add it:
+2025-05-25 19:04:36.940 [info] 
+2025-05-25 19:04:37.096 [info] Running checks...
+2025-05-25 19:04:37.097 [info] Starting linting the current package at /home/emerald/repos/goDial/cmd
+2025-05-25 19:04:37.539 [info] /home/emerald/repos/goDial/cmd>Finished running tool: /home/emerald/go/bin/staticcheck
+2025-05-25 19:04:37.539 [info] 
+2025-05-25 19:05:42.865 [info] Running checks...
+2025-05-25 19:05:42.865 [info] Starting linting the current package at /home/emerald/repos/goDial/cmd
+2025-05-25 19:05:43.168 [info] /home/emerald/repos/goDial/cmd>Finished running tool: /home/emerald/go/bin/staticcheck
+2025-05-25 19:05:43.168 [info] /home/emerald/repos/goDial/internal/router/router.go:6:2 package goDial/templates is not in std (/nix/store/zkf2kfwjnck841337ygv87icv33w648f-go-1.23.3/share/go/src/goDial/templates) (compile)
+2025-05-25 19:05:43.168 [info] 
+2025-05-25 19:13:19.534 [info] Running checks...
+2025-05-25 19:13:19.534 [info] Starting linting the current package at /home/emerald/repos/goDial/internal/router
+2025-05-25 19:13:19.789 [info] /home/emerald/repos/goDial/internal/router>Finished running tool: /home/emerald/go/bin/staticcheck
+2025-05-25 19:13:19.789 [info] /home/emerald/repos/goDial/internal/router/router.go:6:2 package goDial/internal/templates is not in std (/nix/store/zkf2kfwjnck841337ygv87icv33w648f-go-1.23.3/share/go/src/goDial/internal/templates) (compile)
+2025-05-25 19:13:19.789 [info] 
+2025-05-25 19:20:34.059 [info] Running checks...
+2025-05-25 19:20:34.059 [info] Starting linting the current package at /home/emerald/repos/goDial/internal/router
+2025-05-25 19:20:34.595 [info] /home/emerald/repos/goDial/internal/router>Finished running tool: /home/emerald/go/bin/staticcheck
+2025-05-25 19:20:34.595 [info] /home/emerald/repos/goDial/internal/router/router.go:6:2 package goDial/internal/templates/pages is not in std (/nix/store/zkf2kfwjnck841337ygv87icv33w648f-go-1.23.3/share/go/src/goDial/internal/templates/pages) (compile)
+2025-05-25 19:20:34.595 [info] 
+2025-05-25 19:20:46.855 [info] Running checks...
+2025-05-25 19:20:46.855 [info] Starting linting the current package at /home/emerald/repos/goDial/internal/router
+2025-05-25 19:20:47.141 [info] /home/emerald/repos/goDial/internal/router>Finished running tool: /home/emerald/go/bin/staticcheck
+2025-05-25 19:20:47.141 [info] /home/emerald/repos/goDial/internal/router/router.go:6:2 package goDial/internal/templates/pages is not in std (/nix/store/zkf2kfwjnck841337ygv87icv33w648f-go-1.23.3/share/go/src/goDial/internal/templates/pages) (compile)
+2025-05-25 19:20:47.141 [info] 

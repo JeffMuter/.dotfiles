@@ -1,0 +1,153 @@
+[Info  - 3:35:25 PM] 2025/05/24 15:35:25 Created View (#1)
+	directory=/home/emerald/repos/goDial
+	view_type="GoMod"
+	root_dir="file:///home/emerald/repos/goDial"
+	go_version="go version go1.23.3 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/emerald/.cache/go-build GOMODCACHE:/home/emerald/go/pkg/mod GOPATH:/home/emerald/go GOPRIVATE: GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GOROOT:/nix/store/zkf2kfwjnck841337ygv87icv33w648f-go-1.23.3/share/go GoVersion:23 GoVersionOutput:go version go1.23.3 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 3:35:25 PM] 2025/05/24 15:35:25 go/packages.Load #1
+	view_id="1"
+	snapshot=0
+	directory=/home/emerald/repos/goDial
+	query=[/home/emerald/repos/goDial/... builtin]
+	packages=3
+	duration=345.762614ms
+
+[Info  - 3:35:55 PM] 2025/05/24 15:35:55 background imports cache refresh starting
+
+[Info  - 3:35:55 PM] 2025/05/24 15:35:55 background refresh finished after 641.237536ms
+
+[Info  - 3:39:30 PM] 2025/05/24 15:39:30 go/packages.Load #3
+	view_id="1"
+	snapshot=16
+	directory=/home/emerald/repos/goDial
+	query=[/home/emerald/repos/goDial/... builtin]
+	packages=3
+	duration=1m10.853370561s
+
+[Info  - 3:39:30 PM] 2025/05/24 15:39:30 go/packages.Load #5
+	view_id="1"
+	snapshot=22
+	directory=/home/emerald/repos/goDial
+	query=[file=/home/emerald/repos/goDial/cmd/main.go]
+	packages=1
+	duration=122.367026ms
+
+[Info  - 3:40:05 PM] 2025/05/24 15:40:05 background imports cache refresh starting
+
+[Info  - 3:40:05 PM] 2025/05/24 15:40:05 background refresh finished after 329.051019ms
+
+[Error - 3:41:08 PM] 2025/05/24 15:41:08 imports fixes: allImportsFixes: /home/emerald/repos/goDial/internal/database/init.go:1:2: expected ';', found 'EOF' (and 2 more errors)
+	file="/home/emerald/repos/goDial/internal/database/init.go"
+
+[Info  - 3:41:10 PM] 2025/05/24 15:41:10 go/packages.Load #8
+	view_id="1"
+	snapshot=49
+	directory=/home/emerald/repos/goDial
+	query=[goDial/cmd goDial/internal/database]
+	packages=2
+	duration=117.769246ms
+
+[Info  - 3:41:20 PM] 2025/05/24 15:41:20 go/packages.Load #12
+	view_id="1"
+	snapshot=60
+	directory=/home/emerald/repos/goDial
+	query=[file=/home/emerald/repos/goDial/internal/database/init.go]
+	packages=1
+	duration=129.335795ms
+
+[Info  - 3:41:52 PM] 2025/05/24 15:41:52 background imports cache refresh starting
+
+[Info  - 3:41:52 PM] 2025/05/24 15:41:52 background refresh finished after 35.933751ms
+
+[Info  - 3:43:57 PM] 2025/05/24 15:43:57 go/packages.Load #22
+	view_id="1"
+	snapshot=73
+	directory=/home/emerald/repos/goDial
+	query=[goDial/cmd goDial/internal/database]
+	packages=2
+	duration=2m3.101113749s
+
+[Info  - 3:44:43 PM] 2025/05/24 15:44:43 go/packages.Load #30
+	view_id="1"
+	snapshot=92
+	directory=/home/emerald/repos/goDial
+	query=[file=/home/emerald/repos/goDial/internal/database/init_test.go]
+	packages=1
+	duration=765.540313ms
+
+[Info  - 3:44:43 PM] 2025/05/24 15:44:43 go/packages.Load #31
+	view_id="1"
+	snapshot=92
+	directory=/home/emerald/repos/goDial
+	query=[file=/home/emerald/repos/goDial/internal/database/init_test.go]
+	packages=1
+	duration=759.088152ms
+
+[Error - 3:44:45 PM] 2025/05/24 15:44:45 go/packages.Load #32: err: exit status 1: stderr: go: updates to go.mod needed; to update it:
+	go mod tidy
+
+	view_id="1"
+	snapshot=95
+	directory=/home/emerald/repos/goDial
+	query=[goDial/cmd goDial/internal/database]
+	packages=0
+	duration=54.627731ms
+
+[Error - 3:44:45 PM] 2025/05/24 15:44:45 reloading workspace: packages.Load error: err: exit status 1: stderr: go: updates to go.mod needed; to update it:
+	go mod tidy
+
+	view_id="1"
+	snapshot=95
+	directory=/home/emerald/repos/goDial
+
+[Info  - 3:44:45 PM] 2025/05/24 15:44:45 go/packages.Load #33
+	view_id="1"
+	snapshot=95
+	directory=/home/emerald/repos/goDial
+	query=[file=/home/emerald/repos/goDial/cmd/main.go]
+	packages=1
+	duration=265.077964ms
+
+[Info  - 3:44:53 PM] 2025/05/24 15:44:53 go/packages.Load #34
+	view_id="1"
+	snapshot=103
+	directory=/home/emerald/repos/goDial
+	query=[/home/emerald/repos/goDial/... builtin]
+	packages=5
+	duration=205.484436ms
+
+[Info  - 3:45:13 PM] 2025/05/24 15:45:13 background imports cache refresh starting
+
+[Info  - 3:45:13 PM] 2025/05/24 15:45:13 background refresh finished after 83.360159ms
+
+[Info  - 3:45:36 PM] 2025/05/24 15:45:36 go/packages.Load #36
+	view_id="1"
+	snapshot=119
+	directory=/home/emerald/repos/goDial
+	query=[file=/home/emerald/repos/goDial/internal/database/init_test.go]
+	packages=1
+	duration=521.038587ms
+
+[Info  - 3:45:36 PM] 2025/05/24 15:45:36 go/packages.Load #35
+	view_id="1"
+	snapshot=119
+	directory=/home/emerald/repos/goDial
+	query=[file=/home/emerald/repos/goDial/internal/database/init_test.go]
+	packages=1
+	duration=530.747876ms
+
+[Info  - 3:46:06 PM] 2025/05/24 15:46:06 background imports cache refresh starting
+
+[Info  - 3:46:06 PM] 2025/05/24 15:46:06 background refresh finished after 67.429064ms
+
+[Info  - 3:46:38 PM] 2025/05/24 15:46:38 background imports cache refresh starting
+
+[Info  - 3:46:38 PM] 2025/05/24 15:46:38 background refresh finished after 20.83829ms
+
+[Info  - 4:57:55 PM] 2025/05/24 16:57:55 Shutdown session
+	shutdown_session=1
+

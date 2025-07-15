@@ -116,8 +116,12 @@ vim.opt.showmode = false
 --  See `:help 'clipboard'`
 -- Check if running in WSL
 --
+
+
+
 local win32yank_path = os.getenv("WIN32YANK_PATH") or "/mnt/c/Users/jeffmuter/AppData/Local/Microsoft/WinGet/Packages/equalsraf.win32yank_Microsoft.Winget.Source_8wekyb3d8bbwe/win32yank.exe"
 
+if vim.fn.has('win32') == 1 then
   vim.g.clipboard = {
     name = 'win32yank-wsl',
     copy = {
@@ -128,13 +132,15 @@ local win32yank_path = os.getenv("WIN32YANK_PATH") or "/mnt/c/Users/jeffmuter/Ap
       ['+'] = { win32yank_path, "-o", "--lf" },
       ['*'] = { win32yank_path, "-o", "--lf" },
     },
-  -- /mnt/c/Users/jeffmuter/AppData/Local/Microsoft/WinGet/Packages/equalsraf.win32yank_Microsoft.Winget.Source_8wekyb3d8bbwe/win32yank.exe -o
     cache_enabled = 0,
   }
-
+else 
   vim.opt.clipboard:append('unnamedplus')
+end
   -- use this when not on wsl
 --  vim.opt.clipboard = 'unnamedplus'
+
+
 
 -- Enable break indent
 vim.opt.breakindent = true
@@ -273,6 +279,12 @@ require('lazy').setup({
       },
     },
   },
+{
+  "mfussenegger/nvim-dap",
+  dependencies = {
+    "rcarriga/nvim-dap-ui",
+  },
+},
 
   {
     'JeffMuter/godoc.nvim',
@@ -637,6 +649,8 @@ require('lazy').setup({
           experimentalPostfixCompletions = true,
         },
         quick_lint_js = {},
+        htmx = {},
+        templ = {},
         sqls = {
           on_attach = function(client)
             client.server_capabilities.documentFormattingProvider = false
@@ -676,6 +690,37 @@ require('lazy').setup({
           }
         end,
       })
+
+      -- Set global defaults for all files to use 4 spaces
+      vim.opt.tabstop = 4
+      vim.opt.shiftwidth = 4
+      vim.opt.softtabstop = 4
+      vim.opt.expandtab = true  -- Use spaces instead of tabs
+
+      -- set golang tab spacing to 4 spaces. seems 8 is the annoying default
+      vim.api.nvim_create_autocmd("FileType", {
+        pattern = "go",
+        callback = function()
+          vim.opt_local.tabstop = 4
+          vim.opt_local.shiftwidth = 4
+          vim.opt_local.softtabstop = 4
+          vim.opt_local.expandtab = false  -- Go uses real tabs
+        end,
+      })
+
+      -- Disable auto-formatting and text wrapping for .templ files
+      vim.api.nvim_create_autocmd({"BufRead", "BufNewFile"}, {
+        pattern = "*.templ",
+        callback = function()
+          vim.opt_local.textwidth = 0
+          vim.opt_local.wrapmargin = 0
+          vim.opt_local.formatoptions:remove("t")
+          vim.opt_local.formatoptions:remove("c")
+          vim.opt_local.formatoptions:remove("a")
+          vim.bo.filetype = "templ"
+        end,
+      })
+
       -- Ensure the servers and tools above are installed
       --  To check the current status of installed tools and/or manually install
       --  other tools, you can run
@@ -709,6 +754,10 @@ require('lazy').setup({
           end,
         },
       }
+require('lspconfig').clangd.setup({
+  cmd = { "clangd" },
+  capabilities = capabilities,
+})
     end,
   },
 
@@ -732,7 +781,7 @@ require('lazy').setup({
         -- Disable "format_on_save lsp_fallback" for languages that don't
         -- have a well standardized coding style. You can add additional
         -- languages here or re-enable it for the disabled ones.
-        local disable_filetypes = { c = true, cpp = true }
+        local disable_filetypes = { c = true, cpp = true, templ = true }
         local lsp_format_opt
         if disable_filetypes[vim.bo[bufnr].filetype] then
           lsp_format_opt = 'never'

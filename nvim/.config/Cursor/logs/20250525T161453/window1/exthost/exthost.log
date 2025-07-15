@@ -1,0 +1,399 @@
+2025-05-25 16:14:59.168 [info] Extension host with pid 72774 started
+2025-05-25 16:14:59.168 [info] Skipping acquiring lock for /home/emerald/.config/Cursor/User/workspaceStorage/71b723d19962b5d238b40a54cedb72bd.
+2025-05-25 16:14:59.422 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-05-25 16:14:59.571 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2025-05-25 16:15:01.272 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-05-25 16:15:01.418 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-05-25 16:15:01.703 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2025-05-25 16:15:02.924 [info] Extension host with pid 72832 started
+2025-05-25 16:15:02.924 [info] Skipping acquiring lock for /home/emerald/.config/Cursor/User/workspaceStorage/71b723d19962b5d238b40a54cedb72bd.
+2025-05-25 16:15:03.029 [info] Eager extensions activated
+2025-05-25 16:15:03.214 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2025-05-25 16:15:03.279 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-05-25 16:15:03.484 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-05-25 16:15:03.905 [info] Eager extensions activated
+2025-05-25 16:15:04.090 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-05-25 16:15:04.592 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-05-25 16:15:05.013 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-05-25 16:15:05.165 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-05-25 16:15:05.631 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-05-25 16:15:05.637 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-05-25 16:20:05.476 [info] Extension host terminating: renderer closed the MessagePort
+2025-05-25 16:20:05.481 [info] Extension host with pid 72832 exiting with code 0
+2025-05-25 16:20:05.482 [info] Extension host terminating: renderer closed the MessagePort
+2025-05-25 16:20:05.523 [error] Canceled: Canceled
+	at new aEt (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:111661)
+	at IK.U (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:116296)
+	at n.<computed>.a.charCodeAt.n.<computed> (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:113788)
+	at xY.g (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32527)
+	at xY.executeCommand (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32031)
+	at e.registerCommand.description (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:31361)
+	at xY.h (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:33048)
+	at xY.g (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32124)
+	at xY.executeCommand (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32031)
+	at Object.executeCommand (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:42481)
+	at L3.N [as value] (/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:978108)
+	at C.B (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2385)
+	at C (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2455)
+	at C.fire (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2672)
+	at Object.f [as dispose] (/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:999684)
+	at /nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1005806
+	at Array.forEach (<anonymous>)
+	at C.dispose (/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1005792)
+	at XG.<anonymous> (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:128:20157)
+	at XG.dispose (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:128:20253)
+	at XG.<anonymous> (/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:980587)
+	at XG.dispose (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:128:20253)
+	at Hs (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:706)
+	at file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:15363
+	at file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:1017
+	at Object.dispose (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:708)
+	at Jie.eb (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:12144)
+	at file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10098
+	at Array.map (<anonymous>)
+	at Jie.$ (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10086)
+	at Jie.terminate (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10329)
+	at fvt.terminate (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:1435)
+	at Gr (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:195:15173)
+	at MessagePortMain.<anonymous> (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:195:11701)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-05-25 16:20:05.524 [error] Canceled: Canceled
+	at new aEt (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:111661)
+	at IK.U (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:116296)
+	at n.<computed>.a.charCodeAt.n.<computed> (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:113788)
+	at xY.g (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32527)
+	at xY.executeCommand (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32031)
+	at e.registerCommand.description (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:31361)
+	at xY.h (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:33048)
+	at xY.g (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32124)
+	at xY.executeCommand (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32031)
+	at Object.executeCommand (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:42481)
+	at set hasGitHubRepositories (/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/extensions/github/dist/extension.js:4:328629)
+	at /nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/extensions/github/dist/extension.js:4:329588
+	at L3.value (/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1096223)
+	at C.B (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2385)
+	at C (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2455)
+	at C.fire (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2672)
+	at Object.f [as dispose] (/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:999684)
+	at /nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1005806
+	at Array.forEach (<anonymous>)
+	at C.dispose (/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1005792)
+	at XG.<anonymous> (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:128:20157)
+	at XG.dispose (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:128:20253)
+	at XG.<anonymous> (/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:980587)
+	at XG.dispose (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:128:20253)
+	at Hs (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:706)
+	at file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:15363
+	at file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:1017
+	at Object.dispose (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:708)
+	at Jie.eb (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:12144)
+	at file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10098
+	at Array.map (<anonymous>)
+	at Jie.$ (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10086)
+	at Jie.terminate (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10329)
+	at fvt.terminate (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:1435)
+	at Gr (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:195:15173)
+	at MessagePortMain.<anonymous> (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:195:11701)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-05-25 16:20:05.528 [info] Extension host with pid 72774 exiting with code 0
+2025-05-25 16:20:10.430 [info] Extension host with pid 75552 started
+2025-05-25 16:20:10.430 [info] Skipping acquiring lock for /home/emerald/.config/Cursor/User/workspaceStorage/f365beb79ac927dc973da7c50675dd39.
+2025-05-25 16:20:10.742 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-05-25 16:20:10.822 [info] ExtensionService#_doActivateExtension golang.go, startup: false, activationEvent: 'onLanguage:go'
+2025-05-25 16:20:11.589 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-05-25 16:20:11.643 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-05-25 16:20:11.965 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-05-25 16:20:12.419 [info] Eager extensions activated
+2025-05-25 16:20:12.582 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-05-25 16:20:12.965 [info] Extension host with pid 75606 started
+2025-05-25 16:20:12.965 [info] Skipping acquiring lock for /home/emerald/.config/Cursor/User/workspaceStorage/f365beb79ac927dc973da7c50675dd39.
+2025-05-25 16:20:12.965 [info] Eager extensions activated
+2025-05-25 16:20:12.977 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2025-05-25 16:20:13.067 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-05-25 16:20:13.476 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-05-25 16:20:13.647 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-05-25 16:20:14.123 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-05-25 16:20:14.131 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-05-25 16:20:15.323 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-05-25 19:02:33.185 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2025-05-25 19:02:37.795 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2025-05-25 19:04:47.517 [error] [golang.go] provider FAILED
+2025-05-25 19:04:47.523 [error] Error: getting file for InlayHint: context canceled
+	at handleResponse (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8582:40)
+	at handleMessage (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-05-25 19:06:06.587 [warning] [Decorations] CAPPING events from decorations provider vscode.git 365
+2025-05-25 19:06:11.671 [warning] [Decorations] CAPPING events from decorations provider vscode.git 365
+2025-05-25 19:10:26.675 [warning] [Decorations] CAPPING events from decorations provider vscode.git 366
+2025-05-25 19:10:45.250 [warning] [Decorations] CAPPING events from decorations provider vscode.git 366
+2025-05-25 19:12:35.600 [error] [golang.go] provider FAILED
+2025-05-25 19:12:35.601 [error] Error: no package data for import "goDial/templates"
+	at handleResponse (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8582:40)
+	at handleMessage (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-05-25 19:12:38.804 [error] [golang.go] provider FAILED
+2025-05-25 19:12:38.804 [error] Error: no package data for import "goDial/templates"
+	at handleResponse (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8582:40)
+	at handleMessage (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-05-25 19:12:42.229 [error] [golang.go] provider FAILED
+2025-05-25 19:12:42.229 [error] Error: no package data for import "goDial/templates"
+	at handleResponse (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8582:40)
+	at handleMessage (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-05-25 19:12:42.585 [error] [golang.go] provider FAILED
+2025-05-25 19:12:42.585 [error] Error: no package data for import "goDial/templates"
+	at handleResponse (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8582:40)
+	at handleMessage (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-05-25 19:12:58.565 [error] [golang.go] provider FAILED
+2025-05-25 19:12:58.566 [error] Error: no package data for import "goDial/templates"
+	at handleResponse (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8582:40)
+	at handleMessage (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-05-25 19:12:59.226 [error] [golang.go] provider FAILED
+2025-05-25 19:12:59.227 [error] Error: no package data for import "goDial/templates"
+	at handleResponse (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8582:40)
+	at handleMessage (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-05-25 19:13:07.486 [error] [golang.go] provider FAILED
+2025-05-25 19:13:07.486 [error] Error: getting file for InlayHint: context canceled
+	at handleResponse (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8582:40)
+	at handleMessage (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-05-25 19:13:07.653 [error] [golang.go] provider FAILED
+2025-05-25 19:13:07.653 [error] Error: getting file for InlayHint: context canceled
+	at handleResponse (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8582:40)
+	at handleMessage (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-05-25 19:13:20.684 [warning] [Decorations] CAPPING events from decorations provider vscode.git 366
+2025-05-25 19:13:22.168 [error] [golang.go] provider FAILED
+2025-05-25 19:13:22.169 [error] Error: no package data for import "goDial/internal/templates"
+	at handleResponse (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8582:40)
+	at handleMessage (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-05-25 19:14:10.640 [error] [golang.go] provider FAILED
+2025-05-25 19:14:10.640 [error] Error: no package data for import "goDial/internal/templates"
+	at handleResponse (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8582:40)
+	at handleMessage (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-05-25 19:14:44.413 [warning] [Decorations] CAPPING events from decorations provider vscode.git 367
+2025-05-25 19:14:49.541 [warning] [Decorations] CAPPING events from decorations provider vscode.git 367
+2025-05-25 19:14:54.686 [warning] [Decorations] CAPPING events from decorations provider vscode.git 367
+2025-05-25 19:19:55.188 [warning] [Decorations] CAPPING events from decorations provider vscode.git 368
+2025-05-25 19:20:00.286 [warning] [Decorations] CAPPING events from decorations provider vscode.git 368
+2025-05-25 19:20:05.378 [warning] [Decorations] CAPPING events from decorations provider vscode.git 369
+2025-05-25 19:20:10.463 [warning] [Decorations] CAPPING events from decorations provider vscode.git 370
+2025-05-25 19:20:15.550 [warning] [Decorations] CAPPING events from decorations provider vscode.git 371
+2025-05-25 19:20:20.800 [warning] [Decorations] CAPPING events from decorations provider vscode.git 372
+2025-05-25 19:20:25.898 [warning] [Decorations] CAPPING events from decorations provider vscode.git 372
+2025-05-25 19:20:31.008 [warning] [Decorations] CAPPING events from decorations provider vscode.git 373
+2025-05-25 19:20:33.695 [error] [golang.go] provider FAILED
+2025-05-25 19:20:33.696 [error] Error: getting file for InlayHint: context canceled
+	at handleResponse (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8582:40)
+	at handleMessage (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-05-25 19:20:36.091 [warning] [Decorations] CAPPING events from decorations provider vscode.git 373
+2025-05-25 19:20:41.169 [warning] [Decorations] CAPPING events from decorations provider vscode.git 373
+2025-05-25 19:20:47.995 [warning] [Decorations] CAPPING events from decorations provider vscode.git 373
+2025-05-25 19:20:53.321 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-05-25 19:20:58.507 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-05-25 19:20:58.529 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-05-25 19:20:58.556 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-05-25 19:21:00.906 [warning] [Decorations] CAPPING events from decorations provider vscode.git 375
+2025-05-25 19:21:12.665 [warning] [Decorations] CAPPING events from decorations provider vscode.git 375
+2025-05-25 19:21:30.203 [error] [golang.go] provider FAILED
+2025-05-25 19:21:30.204 [error] Error: no package data for import "goDial/internal/templates/pages"
+	at handleResponse (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8582:40)
+	at handleMessage (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8392:11)
+	at processMessageQueue (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8407:13)
+	at Immediate.<anonymous> (/home/emerald/.cursor/extensions/golang.go-0.46.1/dist/goMain.js:8383:11)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-05-25 19:22:01.637 [warning] [Decorations] CAPPING events from decorations provider vscode.git 375
+2025-05-25 19:22:14.858 [warning] [Decorations] CAPPING events from decorations provider vscode.git 375
+2025-05-25 19:22:27.954 [warning] [Decorations] CAPPING events from decorations provider vscode.git 380
+2025-05-25 19:22:33.076 [warning] [Decorations] CAPPING events from decorations provider vscode.git 380
+2025-05-25 19:23:18.226 [warning] [Decorations] CAPPING events from decorations provider vscode.git 380
+2025-05-25 19:23:25.271 [warning] [Decorations] CAPPING events from decorations provider vscode.git 380
+2025-05-25 19:23:36.787 [warning] [Decorations] CAPPING events from decorations provider vscode.git 380
+2025-05-25 19:23:41.871 [warning] [Decorations] CAPPING events from decorations provider vscode.git 380
+2025-05-25 19:24:14.956 [warning] [Decorations] CAPPING events from decorations provider vscode.git 380
+2025-05-25 19:24:20.045 [warning] [Decorations] CAPPING events from decorations provider vscode.git 380
+2025-05-25 19:24:25.195 [warning] [Decorations] CAPPING events from decorations provider vscode.git 380
+2025-05-25 19:24:33.420 [warning] [Decorations] CAPPING events from decorations provider vscode.git 382
+2025-05-25 19:24:38.545 [warning] [Decorations] CAPPING events from decorations provider vscode.git 382
+2025-05-25 19:26:08.978 [warning] [Decorations] CAPPING events from decorations provider vscode.git 382
+2025-05-25 19:26:14.081 [warning] [Decorations] CAPPING events from decorations provider vscode.git 382
+2025-05-25 19:26:19.154 [warning] [Decorations] CAPPING events from decorations provider vscode.git 382
+2025-05-25 19:26:24.252 [warning] [Decorations] CAPPING events from decorations provider vscode.git 382
+2025-05-25 19:26:42.118 [warning] [Decorations] CAPPING events from decorations provider vscode.git 382
+2025-05-25 19:26:47.218 [warning] [Decorations] CAPPING events from decorations provider vscode.git 382
+2025-05-25 20:42:27.687 [warning] [Decorations] CAPPING events from decorations provider vscode.git 382
+2025-05-25 20:42:32.847 [warning] [Decorations] CAPPING events from decorations provider vscode.git 381
+2025-05-25 20:42:37.976 [warning] [Decorations] CAPPING events from decorations provider vscode.git 381
+2025-05-25 20:42:43.157 [warning] [Decorations] CAPPING events from decorations provider vscode.git 381
+2025-05-25 20:42:48.254 [warning] [Decorations] CAPPING events from decorations provider vscode.git 381
+2025-05-25 20:43:06.905 [warning] [Decorations] CAPPING events from decorations provider vscode.git 382
+2025-05-25 20:43:12.053 [warning] [Decorations] CAPPING events from decorations provider vscode.git 382
+2025-05-25 20:43:17.136 [warning] [Decorations] CAPPING events from decorations provider vscode.git 382
+2025-05-25 20:43:22.210 [warning] [Decorations] CAPPING events from decorations provider vscode.git 382
+2025-05-25 20:43:27.358 [warning] [Decorations] CAPPING events from decorations provider vscode.git 382
+2025-05-25 20:43:32.426 [warning] [Decorations] CAPPING events from decorations provider vscode.git 382
+2025-05-25 20:44:21.172 [warning] [Decorations] CAPPING events from decorations provider vscode.git 382
+2025-05-25 20:44:32.735 [warning] [Decorations] CAPPING events from decorations provider vscode.git 382
+2025-05-25 20:44:50.320 [warning] [Decorations] CAPPING events from decorations provider vscode.git 383
+2025-05-25 20:44:55.492 [warning] [Decorations] CAPPING events from decorations provider vscode.git 384
+2025-05-25 20:45:08.291 [warning] [Decorations] CAPPING events from decorations provider vscode.git 385
+2025-05-25 20:45:11.073 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-05-25 20:45:28.899 [warning] [Decorations] CAPPING events from decorations provider vscode.git 386
+2025-05-25 20:45:33.978 [warning] [Decorations] CAPPING events from decorations provider vscode.git 386
+2025-05-25 20:45:55.399 [warning] [Decorations] CAPPING events from decorations provider vscode.git 386
+2025-05-25 20:46:24.632 [warning] [Decorations] CAPPING events from decorations provider vscode.git 385
+2025-05-25 20:47:48.385 [warning] [Decorations] CAPPING events from decorations provider vscode.git 385
+2025-05-25 20:48:24.257 [warning] [Decorations] CAPPING events from decorations provider vscode.git 384
+2025-05-25 20:48:35.451 [warning] [Decorations] CAPPING events from decorations provider vscode.git 384
+2025-05-25 20:48:46.789 [warning] [Decorations] CAPPING events from decorations provider vscode.git 384
+2025-05-25 20:49:10.327 [warning] [Decorations] CAPPING events from decorations provider vscode.git 384
+2025-05-25 20:49:15.514 [warning] [Decorations] CAPPING events from decorations provider vscode.git 384
+2025-05-25 20:49:27.193 [warning] [Decorations] CAPPING events from decorations provider vscode.git 385
+2025-05-25 20:49:40.729 [warning] [Decorations] CAPPING events from decorations provider vscode.git 386
+2025-05-25 20:49:56.320 [warning] [Decorations] CAPPING events from decorations provider vscode.git 386
+2025-05-25 20:50:01.410 [warning] [Decorations] CAPPING events from decorations provider vscode.git 386
+2025-05-25 20:50:06.477 [warning] [Decorations] CAPPING events from decorations provider vscode.git 386
+2025-05-25 20:50:15.955 [warning] [Decorations] CAPPING events from decorations provider vscode.git 386
+2025-05-25 20:50:39.350 [warning] [Decorations] CAPPING events from decorations provider vscode.git 387
+2025-05-25 20:50:44.435 [warning] [Decorations] CAPPING events from decorations provider vscode.git 387
+2025-05-25 20:50:53.912 [warning] [Decorations] CAPPING events from decorations provider vscode.git 387
+2025-05-25 20:51:20.339 [warning] [Decorations] CAPPING events from decorations provider vscode.git 388
+2025-05-25 20:51:25.437 [warning] [Decorations] CAPPING events from decorations provider vscode.git 388
+2025-05-25 20:51:30.515 [warning] [Decorations] CAPPING events from decorations provider vscode.git 389
+2025-05-25 20:51:57.098 [warning] [Decorations] CAPPING events from decorations provider vscode.git 388
+2025-05-25 20:52:02.275 [warning] [Decorations] CAPPING events from decorations provider vscode.git 388
+2025-05-25 20:52:07.349 [warning] [Decorations] CAPPING events from decorations provider vscode.git 388
+2025-05-25 20:54:24.757 [warning] [Decorations] CAPPING events from decorations provider vscode.git 389
+2025-05-25 20:54:35.360 [warning] [Decorations] CAPPING events from decorations provider vscode.git 390
+2025-05-25 20:54:45.700 [warning] [Decorations] CAPPING events from decorations provider vscode.git 391
+2025-05-25 20:54:50.802 [warning] [Decorations] CAPPING events from decorations provider vscode.git 391
+2025-05-25 20:54:56.016 [warning] [Decorations] CAPPING events from decorations provider vscode.git 392
+2025-05-25 20:55:01.117 [warning] [Decorations] CAPPING events from decorations provider vscode.git 392
+2025-05-25 20:55:09.172 [warning] [Decorations] CAPPING events from decorations provider vscode.git 393
+2025-05-25 20:55:14.247 [warning] [Decorations] CAPPING events from decorations provider vscode.git 393
+2025-05-25 21:07:17.873 [warning] [Decorations] CAPPING events from decorations provider vscode.git 393
+2025-05-25 21:07:37.276 [warning] [Decorations] CAPPING events from decorations provider vscode.git 396
+2025-05-25 21:07:46.288 [warning] [Decorations] CAPPING events from decorations provider vscode.git 395
+2025-05-25 21:08:11.862 [warning] [Decorations] CAPPING events from decorations provider vscode.git 395
+2025-05-25 21:08:16.934 [warning] [Decorations] CAPPING events from decorations provider vscode.git 396
+2025-05-25 21:08:22.064 [warning] [Decorations] CAPPING events from decorations provider vscode.git 396
+2025-05-25 21:08:34.109 [warning] [Decorations] CAPPING events from decorations provider vscode.git 395
+2025-05-25 21:09:30.687 [warning] [Decorations] CAPPING events from decorations provider vscode.git 395
+2025-05-25 21:14:53.636 [warning] [Decorations] CAPPING events from decorations provider vscode.git 396
+2025-05-25 21:14:59.124 [warning] [Decorations] CAPPING events from decorations provider vscode.git 396
+2025-05-25 21:15:04.203 [warning] [Decorations] CAPPING events from decorations provider vscode.git 395
+2025-05-25 21:15:09.274 [warning] [Decorations] CAPPING events from decorations provider vscode.git 395
+2025-05-25 21:15:19.091 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2025-05-25 21:15:47.040 [info] Extension host terminating: renderer closed the MessagePort
+2025-05-25 21:15:47.043 [info] Extension host with pid 75606 exiting with code 0
+2025-05-25 21:15:47.046 [info] Extension host terminating: renderer closed the MessagePort
+2025-05-25 21:15:47.138 [error] Canceled: Canceled
+	at new aEt (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:111661)
+	at IK.U (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:116296)
+	at n.<computed>.a.charCodeAt.n.<computed> (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:113788)
+	at xY.g (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32527)
+	at xY.executeCommand (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32031)
+	at e.registerCommand.description (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:31361)
+	at xY.h (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:33048)
+	at xY.g (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32124)
+	at xY.executeCommand (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32031)
+	at Object.executeCommand (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:42481)
+	at L3.N [as value] (/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:978108)
+	at C.B (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2385)
+	at C (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2455)
+	at C.fire (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2672)
+	at Object.f [as dispose] (/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:999684)
+	at /nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1005806
+	at Array.forEach (<anonymous>)
+	at C.dispose (/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1005792)
+	at XG.<anonymous> (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:128:20157)
+	at XG.dispose (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:128:20253)
+	at XG.<anonymous> (/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:980587)
+	at XG.dispose (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:128:20253)
+	at Hs (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:706)
+	at file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:15363
+	at file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:1017
+	at Object.dispose (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:708)
+	at Jie.eb (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:12144)
+	at file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10098
+	at Array.map (<anonymous>)
+	at Jie.$ (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10086)
+	at Jie.terminate (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10329)
+	at fvt.terminate (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:1435)
+	at Gr (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:195:15173)
+	at MessagePortMain.<anonymous> (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:195:11701)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-05-25 21:15:47.138 [error] Canceled: Canceled
+	at new aEt (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:111661)
+	at IK.U (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:116296)
+	at n.<computed>.a.charCodeAt.n.<computed> (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:113788)
+	at xY.g (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32527)
+	at xY.executeCommand (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32031)
+	at e.registerCommand.description (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:31361)
+	at xY.h (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:33048)
+	at xY.g (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32124)
+	at xY.executeCommand (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:32031)
+	at Object.executeCommand (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:42481)
+	at set hasGitHubRepositories (/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/extensions/github/dist/extension.js:4:328629)
+	at /nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/extensions/github/dist/extension.js:4:329588
+	at L3.value (/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1096223)
+	at C.B (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2385)
+	at C (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2455)
+	at C.fire (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2672)
+	at Object.f [as dispose] (/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:999684)
+	at /nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1005806
+	at Array.forEach (<anonymous>)
+	at C.dispose (/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:1005792)
+	at XG.<anonymous> (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:128:20157)
+	at XG.dispose (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:128:20253)
+	at XG.<anonymous> (/nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/extensions/git/dist/main.js:4:980587)
+	at XG.dispose (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:128:20253)
+	at Hs (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:706)
+	at file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:15363
+	at file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:1017
+	at Object.dispose (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:708)
+	at Jie.eb (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:12144)
+	at file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10098
+	at Array.map (<anonymous>)
+	at Jie.$ (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10086)
+	at Jie.terminate (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10329)
+	at fvt.terminate (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:1435)
+	at Gr (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:195:15173)
+	at MessagePortMain.<anonymous> (file:///nix/store/0s56jcl04q77aq6kfx69iasnlzr6k1xp-cursor-0.49.6-extracted/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:195:11701)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-05-25 21:15:47.153 [info] Extension host with pid 75552 exiting with code 0

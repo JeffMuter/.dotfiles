@@ -1,0 +1,44 @@
+# PyDial
+
+PyDial is a hyper-realistic phone call automation application that enables AI-driven phone conversations based on user-provided prompts. The application can initiate phone calls and conduct natural conversations following specified scenarios and personas.
+
+## Overview
+
+PyDial acts as a bridge between AI language models and telephone communications, allowing automated phone interactions that feel natural and purposeful. The AI assistant can handle various conversation scenarios while maintaining the context and persona provided in the prompt.
+
+## Core Features
+
+- **Prompt-Based Conversations**: Define conversation goals and AI persona through simple prompts
+- **Natural Voice Interaction**: Conducts phone calls with hyper-realistic voice synthesis
+- **Contextual Understanding**: Maintains conversation context and follows scenario guidelines
+- **Flexible Persona Adoption**: AI can assume different identities and roles as specified
+
+## Basic Usage
+
+Example prompt format:
+```
+"Call 555-0123 and talk to whoever answers about the weather. Your name is Jill, and you're an AI assistant."
+```
+
+The AI will:
+1. Initiate the call to the specified number
+2. Introduce itself as per the given identity
+3. Conduct the conversation within the specified context
+4. Maintain natural flow while achieving the conversation goal
+
+## Important Notes
+
+- The AI will only use information provided in the prompt
+- Each call requires a clear prompt with:
+  - Phone number to call
+  - Conversation topic or goal
+  - AI's persona/identity (if specified)
+  - Any specific instructions or constraints
+
+## Technical Requirements
+
+[To be added based on implementation details]
+
+## License
+
+[To be added based on project requirements] 

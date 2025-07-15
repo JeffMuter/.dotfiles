@@ -1,0 +1,27 @@
+package layouts
+
+import "goDial/internal/templates/components"
+
+templ App(title string) {
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{ title } - goDial</title>
+    <link href="/static/css/output.css" rel="stylesheet" />
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script src="https://unpkg.com/htmx.org@2.0.4"></script>
+</head>
+
+<body class="min-h-screen bg-base-100 text-base-content flex flex-col">
+    @components.Navbar()
+    <main class="flex-1">
+        { children... }
+    </main>
+    @components.Footer()
+</body>
+
+</html>
+} 

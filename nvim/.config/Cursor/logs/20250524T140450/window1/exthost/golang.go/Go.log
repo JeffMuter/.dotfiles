@@ -1,0 +1,19 @@
+2025-05-24 15:33:36.792 [info] Tools environment: GOPATH=/home/emerald/go, GOTOOLCHAIN=auto
+2025-05-24 15:33:36.792 [info] Installing 2 tools at /home/emerald/go/bin
+2025-05-24 15:33:36.792 [info]   gopls
+2025-05-24 15:33:36.792 [info]   staticcheck
+2025-05-24 15:33:36.792 [info] 
+2025-05-24 15:34:48.809 [info] Installing golang.org/x/tools/gopls@latest (/home/emerald/go/bin/gopls) SUCCEEDED
+2025-05-24 15:35:24.560 [info] Installing honnef.co/go/tools/cmd/staticcheck@latest (/home/emerald/go/bin/staticcheck) SUCCEEDED
+2025-05-24 15:35:24.561 [info] 
+2025-05-24 15:35:24.561 [info] All tools successfully installed. You are ready to Go. :)
+2025-05-24 15:35:24.821 [info] Try to start language server - activation (enabled: true)
+2025-05-24 15:35:25.064 [info] Running language server gopls(v0.18.1/go1.23.9)
+2025-05-24 15:39:33.338 [info] Running checks...
+2025-05-24 15:39:33.339 [info] Starting linting the current package at /home/emerald/repos/goDial/cmd
+2025-05-24 15:39:36.022 [info] /home/emerald/repos/goDial/cmd>Finished running tool: /home/emerald/go/bin/staticcheck
+2025-05-24 15:39:36.023 [info] /home/emerald/repos/goDial/internal/database/init.go:12:6 DBTX redeclared in this block
+2025-05-24 15:39:36.023 [info] /home/emerald/repos/goDial/internal/database/init.go:19:6 New redeclared in this block
+2025-05-24 15:39:36.023 [info] /home/emerald/repos/goDial/internal/database/init.go:23:6 Queries redeclared in this block
+2025-05-24 15:39:36.023 [info] /home/emerald/repos/goDial/internal/database/init.go:27:19 method Queries.WithTx already declared at ../internal/database/db.go:27:19 (compile)
+2025-05-24 15:39:36.023 [info] 
