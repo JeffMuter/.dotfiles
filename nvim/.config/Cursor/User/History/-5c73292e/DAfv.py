@@ -1,3 +1,0 @@
-"""
-PyDial test suite
-""" 
