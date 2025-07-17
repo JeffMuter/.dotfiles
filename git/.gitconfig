@@ -12,5 +12,5 @@
 
     ssh-print = ![ -f ~/.ssh/id_ed25519.pub ] && echo \"Current public key:\" && cat ~/.ssh/id_ed25519.pub || echo \"No SSH key found\"
 
-    saorsa = "!f() { \n    branch=$(git branch --show-current); \n    echo \"\"; \n    git fetch origin $branch; \n    ahead=$(git rev-list --count origin/$branch..HEAD); \n    behind=$(git rev-list --count HEAD..origin/$branch); \n    echo \"Ahead: $ahead, Behind: $behind\"; \n    echo \"\"; \n    git add . && git commit -m \"$1\" && { \n        echo \"\"; \n        git pull origin $branch || { echo \"Pull failed - aborting\"; exit 1; }; \n    } && { \n        echo \"\"; \n        git push origin $branch; \n    }; \n}; f"
+	saorsa = "!f() { \n    branch=$(git branch --show-current); \n    echo \"\"; \n    echo \"[FETCH...]\"; \n    git fetch origin $branch; \n    ahead=$(git rev-list --count origin/$branch..HEAD); \n    behind=$(git rev-list --count HEAD..origin/$branch); \n    echo \"Ahead: $ahead, Behind: $behind\"; \n    echo \"\"; \n    echo \"[COMMIT...]\"; \n    git add . && git commit -m \"$1\" && { \n        echo \"\"; \n        echo \"[PULL...]\"; \n        git pull origin $branch || { echo \"Pull failed - aborting\"; exit 1; }; \n    } && { \n        echo \"\"; \n        echo \"[PUSH...]\"; \n        git push origin $branch; \n    }; \n}; f"
 
