@@ -1,5 +1,0 @@
-flask==2.3.3
-signalwire==2.1.1
-requests==2.31.0
-urllib3==2.0.4
-anthropic==0.7.8 
