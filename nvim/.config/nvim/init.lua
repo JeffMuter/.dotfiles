@@ -647,12 +647,12 @@ require('lazy').setup({
       --  - settings (table): Override the default settings passed when initializing the server.
       --        For example, to see the options for `lua_ls`, you could go to: https://luals.github.io/wiki/settings/
       local servers = {
-    gopls = {
-      gofumpt = true,
-      analyses = {
-        unusedparams = true,
-      },
-    },
+        gopls = {
+          gofumpt = true,
+          analyses = {
+            unusedparams = true,
+          },
+        },
         quick_lint_js = {},
         htmx = {},
         templ = {},
@@ -661,6 +661,22 @@ require('lazy').setup({
             client.server_capabilities.documentFormattingProvider = false
             client.server_capabilities.documentRangeFormattingProvider = false
           end,
+          settings = {
+            sqls = {
+            connections = {
+              {
+                driver = "sqlite3",
+                dataSourceName = vim.fn.expand("~/repos/prism/db/prism.db"),
+                alias = "prism"
+              },
+              {
+                driver = "sqlite3", 
+                dataSourceName = vim.fn.expand("~/repos/pact/database/database.db"),
+                alias = "pact"
+              },
+            }
+            }
+          }
         },
         html = {
           on_attach = function(client)
@@ -754,41 +770,40 @@ require('lazy').setup({
         'cssls',
         'quick_lint_js',
         'sqls',
+        'sql-formatter',
         'bashls',
       })
-      require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 
-      require('mason-lspconfig').setup {
-        handlers = {
-          function(server_name)
-            local server = servers[server_name] or {}
-            -- This handles overriding only values explicitly passed
-            -- by the server configuration above. Useful when disabling
-            -- certain features of an LSP (for example, turning off formatting for ts_ls)
-            server.capabilities = vim.tbl_deep_extend('force', {}, capabilities, server.capabilities or {})
-      -- Special handling for gopls
-      if server_name == 'gopls' then
-        server.on_attach = function(client, bufnr)
-          -- Auto-import on save for Go files
-          if client.server_capabilities.codeActionProvider then
-            vim.api.nvim_create_autocmd("BufWritePre", {
-              buffer = bufnr,
-              callback = function()
-                vim.lsp.buf.code_action({
-                  context = { only = {"source.organizeImports"} },
-                  apply = true,
-                })
-              end,
-            })
-          end
-        end
-            end
-
-            require('lspconfig')[server_name].setup(server)
-          end,
-        },
+      require('mason-tool-installer').setup {
+        ensure_installed = ensure_installed,
       }
-require('lspconfig').clangd.setup({
+
+
+require("mason-lspconfig").setup({
+    ensure_installed = { "lua_ls", "rust_analyzer", "pyright" },
+    automatic_enable = false,  -- Prevents the vim.lsp.enable() calls
+})
+
+require('mason-tool-installer').setup {
+  ensure_installed = { "prettier", "stylua", "black" },
+  auto_update = false,  -- Change from automatic_installation to auto_update
+  run_on_start = true,  -- Add this to install tools on startup
+}
+
+-- Then configure servers manually
+local lspconfig = require('lspconfig')
+
+lspconfig.lua_ls.setup({
+    settings = {
+        Lua = {
+            diagnostics = { globals = { 'vim' } },
+            workspace = { checkThirdParty = false },
+        },
+    },
+})
+
+lspconfig.rust_analyzer.setup({})
+lspconfig.clangd.setup({
   cmd = { "clangd" },
   capabilities = capabilities,
 })
@@ -809,35 +824,41 @@ require('lspconfig').clangd.setup({
         desc = '[F]ormat buffer',
       },
     },
-    opts = {
-      notify_on_error = false,
-      format_on_save = function(bufnr)
-        -- Disable "format_on_save lsp_fallback" for languages that don't
-        -- have a well standardized coding style. You can add additional
-        -- languages here or re-enable it for the disabled ones.
-        local disable_filetypes = { c = true, cpp = true, templ = true }
-        local lsp_format_opt
-        if disable_filetypes[vim.bo[bufnr].filetype] then
-          lsp_format_opt = 'never'
-        else
-          lsp_format_opt = 'fallback'
-        end
-        return {
-          timeout_ms = 500,
-          lsp_format = lsp_format_opt,
-        }
+opts = {
+  notify_on_error = false,
+  format_on_save = function(bufnr)
+    -- Disable "format_on_save lsp_fallback" for languages that don't
+    -- have a well standardized coding style. You can add additional
+    -- languages here or re-enable it for the disabled ones.
+    local disable_filetypes = { c = true, cpp = true, templ = true }
+    local lsp_format_opt
+    if disable_filetypes[vim.bo[bufnr].filetype] then
+      lsp_format_opt = 'never'
+    else
+      lsp_format_opt = 'fallback'
+    end
+    return {
+      timeout_ms = 2000, -- Increased timeout for sql-formatter
+      lsp_format = lsp_format_opt,
+    }
+  end,
+  formatters_by_ft = {
+    lua = { 'stylua' },
+    sql = { 'sql-formatter' },
+    -- html = { 'prettier', },
+  },
+  -- Custom formatter configurations
+  formatters = {
+    ['sql-formatter'] = {
+      command = 'sql-formatter',
+      args = function()
+        return {}  -- Use default settings, no custom args
       end,
-      formatters_by_ft = {
-        lua = { 'stylua' },
-        sql = { 'sqlfluff' },
---        html = { 'prettier', },
-        -- Conform can also run multiple formatters sequentially
-        -- python = { "isort", "black" },
-        --
-        -- You can use 'stop_after_first' to run the first available formatter from the list
-        -- javascript = { "prettierd", "prettier", stop_after_first = true },
-      },
+      stdin = true,
+      timeout_ms = 3000,
     },
+  },
+},
   },
 
   {
@@ -1134,9 +1155,11 @@ require('lspconfig').clangd.setup({
 
       vim.g.dbs = {
         pact = 'sqlite:~/repos/pact/database/database.db',
-        prism = 'postgresql:///prism?host=/var/run/postgresql',
+        -- depricated, switched to sqlite
+        -- prism = 'postgresql:///prism?host=/var/run/postgresql',
+        prism = 'sqlite:~/repos/prism/db/prism.db',
         gohttp = 'sqlite:~/repos/examples/gohttp/database/gohttp.db',
-        muse = 'sqlite:~/repose/projects/db/muse.db',
+        muse = 'sqlite:~/repos/projects/db/muse.db',
       }
 
       -- Optional: Set up key mappings
