@@ -793,6 +793,8 @@ require('mason-tool-installer').setup {
 -- Then configure servers manually
 local lspconfig = require('lspconfig')
 
+lspconfig.gopls.setup({})
+
 lspconfig.lua_ls.setup({
     settings = {
         Lua = {
