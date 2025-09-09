@@ -779,36 +779,17 @@ require('lazy').setup({
       }
 
 
-require("mason-lspconfig").setup({
-    ensure_installed = { "lua_ls", "rust_analyzer", "pyright" },
-    automatic_enable = false,  -- Prevents the vim.lsp.enable() calls
-})
-
-require('mason-tool-installer').setup {
-  ensure_installed = { "prettier", "stylua", "black" },
-  auto_update = false,  -- Change from automatic_installation to auto_update
-  run_on_start = true,  -- Add this to install tools on startup
+require('mason-lspconfig').setup {
+  ensure_installed = ensure_installed,
+  handlers = {
+    function(server_name)
+      local server = servers[server_name] or {}
+      server.capabilities = vim.tbl_deep_extend('force', {}, capabilities, server.capabilities or {})
+      require('lspconfig')[server_name].setup(server)
+    end,
+  },
 }
 
--- Then configure servers manually
-local lspconfig = require('lspconfig')
-
-lspconfig.gopls.setup({})
-
-lspconfig.lua_ls.setup({
-    settings = {
-        Lua = {
-            diagnostics = { globals = { 'vim' } },
-            workspace = { checkThirdParty = false },
-        },
-    },
-})
-
-lspconfig.rust_analyzer.setup({})
-lspconfig.clangd.setup({
-  cmd = { "clangd" },
-  capabilities = capabilities,
-})
     end,
   },
 
