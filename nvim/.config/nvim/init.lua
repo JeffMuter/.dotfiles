@@ -656,28 +656,6 @@ require('lazy').setup({
         quick_lint_js = {},
         htmx = {},
         templ = {},
-        sqls = {
-          on_attach = function(client)
-            client.server_capabilities.documentFormattingProvider = false
-            client.server_capabilities.documentRangeFormattingProvider = false
-          end,
-          settings = {
-            sqls = {
-            connections = {
-              {
-                driver = "sqlite3",
-                dataSourceName = vim.fn.expand("~/repos/prism/db/prism.db"),
-                alias = "prism"
-              },
-              {
-                driver = "sqlite3", 
-                dataSourceName = vim.fn.expand("~/repos/pact/database/database.db"),
-                alias = "pact"
-              },
-            }
-            }
-          }
-        },
         html = {
           on_attach = function(client)
             -- Disable formatting from HTML LSP
@@ -759,18 +737,22 @@ require('lazy').setup({
       --    :Mason
       --
       --  You can press `g?` for help in this menu.
-      require('mason').setup()
+      require('mason').setup({
+        ensure_installed = {
+          "stylua",        -- Lua formatter
+          "sql-formatter", -- SQL formatter
+          -- other non-LSP tools
+        }
+      })
 
       -- You can add other tools here that you want Mason to install
       -- for you, so that they are available from within Neovim.
       local ensure_installed = vim.tbl_keys(servers or {})
       vim.list_extend(ensure_installed, {
-        'stylua', -- Used to format Lua code
         'gopls',
         'cssls',
         'quick_lint_js',
-        'sqls',
-        'sql-formatter',
+        'sqlls',
         'bashls',
       })
 
