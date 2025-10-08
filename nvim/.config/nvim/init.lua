@@ -114,14 +114,21 @@ vim.opt.showmode = false
 --  Schedule the setting after `UiEnter` because it can increase startup-time.
 --  Remove this option if you want your OS clipboard to remain independent.
 --  See `:help 'clipboard'`
+
 -- Check if running in WSL
---
-
-
+local function is_wsl()
+  local version_file = io.open("/proc/version", "r")
+  if version_file then
+    local version_content = version_file:read("*all")
+    version_file:close()
+    return version_content:lower():find("microsoft") ~= nil
+  end
+  return false
+end
 
 local win32yank_path = os.getenv("WIN32YANK_PATH") or "/mnt/c/Users/jeffmuter/AppData/Local/Microsoft/WinGet/Packages/equalsraf.win32yank_Microsoft.Winget.Source_8wekyb3d8bbwe/win32yank.exe"
 
-if vim.fn.has('win32') == 1 then
+if is_wsl() then
   vim.g.clipboard = {
     name = 'win32yank-wsl',
     copy = {
@@ -133,13 +140,12 @@ if vim.fn.has('win32') == 1 then
       ['*'] = { win32yank_path, "-o", "--lf" },
     },
     cache_enabled = 0,
+
+    vim.opt.clipboard:append('unnamedplus')
   }
 else 
   vim.opt.clipboard:append('unnamedplus')
 end
-  -- use this when not on wsl
---  vim.opt.clipboard = 'unnamedplus'
-
 
 
 -- Enable break indent
