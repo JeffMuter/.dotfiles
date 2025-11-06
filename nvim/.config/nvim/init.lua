@@ -561,7 +561,8 @@ require('lazy').setup({
           -- Jump to the definition of the word under your cursor.
           --  This is where a variable was first declared, or where a function is defined, etc.
           --  To jump back, press <C-t>.
-          map('gd', require('telescope.builtin').lsp_definitions, '[G]oto [D]efinition')
+       -- map('gd', require('telescope.builtin').lsp_definitions, '[G]oto [D]efinition')
+          map('gd', vim.lsp.buf.definition, '[G]oto [D]efinition')
 
           -- Find references for the word under your cursor.
           map('gr', require('telescope.builtin').lsp_references, '[G]oto [R]eferences')
@@ -717,6 +718,7 @@ require('lazy').setup({
       vim.api.nvim_create_autocmd("FileType", {
         pattern = "go",
         callback = function()
+          vim.b.sleuth_automatic = 0
           vim.opt_local.tabstop = 4
           vim.opt_local.shiftwidth = 4
           vim.opt_local.softtabstop = 4
@@ -770,6 +772,19 @@ require('lazy').setup({
 require('mason-lspconfig').setup {
   ensure_installed = ensure_installed,
   handlers = {
+
+    -- Add gopls-specific handler BEFORE the default handler, some conflict between 
+    -- utf-8(nvim default) and utf-16(go default)
+    ['gopls'] = function()
+      local gopls_config = servers['gopls'] or {}
+      gopls_config.capabilities = vim.tbl_deep_extend('force', {}, capabilities, gopls_config.capabilities or {})
+      
+      -- Explicitly set utf-16 position encoding for gopls
+      gopls_config.capabilities.offsetEncoding = { 'utf-16' }
+      
+      require('lspconfig')['gopls'].setup(gopls_config)
+    end,
+
     function(server_name)
       local server = servers[server_name] or {}
       server.capabilities = vim.tbl_deep_extend('force', {}, capabilities, server.capabilities or {})
