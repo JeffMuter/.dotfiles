@@ -833,12 +833,15 @@ opts = {
     sql = { 'sql-formatter' },
     -- html = { 'prettier', },
   },
-  -- Custom formatter configurations
+  -- In the conform.nvim opts section (around line 890), update the sql-formatter config:
   formatters = {
     ['sql-formatter'] = {
       command = 'sql-formatter',
       args = function()
-        return {}  -- Use default settings, no custom args
+        return {
+          '--language', 'sqlite',  -- Specify SQLite dialect
+          '--lines-between-queries', '1',
+        }
       end,
       stdin = true,
       timeout_ms = 3000,
@@ -1146,6 +1149,7 @@ opts = {
         prism = 'sqlite:~/repos/prism/db/prism.db',
         gohttp = 'sqlite:~/repos/examples/gohttp/database/gohttp.db',
         muse = 'sqlite:~/repos/projects/db/muse.db',
+        dailygardenguide = 'sqlite:~/repos/dailygardenguide/dailygardenguide.db',
       }
 
       -- Optional: Set up key mappings
@@ -1159,14 +1163,20 @@ opts = {
       vim.api.nvim_create_autocmd('FileType', {
         pattern = { 'sql', 'mysql', 'plsql', 'sqlite' },
         callback = function()
+          -- Only set up completion, don't auto-connect
+          if vim.b.dbui_db_key_name then
           require('cmp').setup.buffer {
             sources = {
               { name = 'vim-dadbod-completion' },
-              -- other sources...
             },
           }
+          end
         end,
       })
+      
+      -- Add these settings to prevent auto-connection
+      vim.g.db_ui_auto_execute_table_helpers = 0
+      vim.g.vim_dadbod_completion_mark = ''
     end,
   },
   {
