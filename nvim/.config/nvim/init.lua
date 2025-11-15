@@ -670,13 +670,7 @@ require('lazy').setup({
             client.server_capabilities.documentRangeFormattingProvider = false
           end,
         },
-        -- sqlls disabled - has poor SQLite support (doesn't recognize AUTOINCREMENT)
-        -- Use vim-dadbod for SQL editing instead
-        -- sqlls = {
-        --   root_dir = function(fname)
-        --     return require('lspconfig.util').root_pattern('.sqllsrc.json', '.git')(fname) or vim.fn.getcwd()
-        --   end,
-        -- },
+        -- Use vim-dadbod for SQL editing
         terraformls = {},
         htmx = {},
         ts_ls = {},
@@ -700,6 +694,18 @@ require('lazy').setup({
               },
               -- You can toggle below to ignore Lua_LS's noisy `missing-fields` warnings
               -- diagnostics = { disable = { 'missing-fields' } },
+            },
+          },
+        },
+        sqls = {
+          settings = {
+            sqls = {
+              connections = {
+                {
+                  driver = 'sqlite3',
+                  dataSourceName = './dailygardenguide.db',
+                },
+              },
             },
           },
         },
@@ -755,8 +761,6 @@ require('lazy').setup({
       require('mason').setup({
         ensure_installed = {
           "stylua",        -- Lua formatter
-          -- "sql-formatter", -- SQL formatter
-          -- other non-LSP tools
         }
       })
 
@@ -767,7 +771,7 @@ require('lazy').setup({
         'gopls',
         'cssls',
         'quick_lint_js',
-        -- 'sqlls',  -- Disabled: poor SQLite support
+        'sqls',
         'bashls',
       })
 
@@ -844,12 +848,7 @@ opts = {
   formatters = {
     ['sql-formatter'] = {
       command = 'sql-formatter',
-      args = function()
-        return {
-          '--language', 'sqlite',  -- Specify SQLite dialect
-          '--lines-between-queries', '1',
-        }
-      end,
+      args = { '-l', 'sqlite' },  -- Just specify the language/dialect
       stdin = true,
       timeout_ms = 3000,
     },
