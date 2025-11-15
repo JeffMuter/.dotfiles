@@ -670,6 +670,13 @@ require('lazy').setup({
             client.server_capabilities.documentRangeFormattingProvider = false
           end,
         },
+        -- sqlls disabled - has poor SQLite support (doesn't recognize AUTOINCREMENT)
+        -- Use vim-dadbod for SQL editing instead
+        -- sqlls = {
+        --   root_dir = function(fname)
+        --     return require('lspconfig.util').root_pattern('.sqllsrc.json', '.git')(fname) or vim.fn.getcwd()
+        --   end,
+        -- },
         terraformls = {},
         htmx = {},
         ts_ls = {},
@@ -748,7 +755,7 @@ require('lazy').setup({
       require('mason').setup({
         ensure_installed = {
           "stylua",        -- Lua formatter
-          "sql-formatter", -- SQL formatter
+          -- "sql-formatter", -- SQL formatter
           -- other non-LSP tools
         }
       })
@@ -760,7 +767,7 @@ require('lazy').setup({
         'gopls',
         'cssls',
         'quick_lint_js',
-        'sqlls',
+        -- 'sqlls',  -- Disabled: poor SQLite support
         'bashls',
       })
 
@@ -1137,46 +1144,42 @@ opts = {
       'kristijanhusak/vim-dadbod-ui',
       'kristijanhusak/vim-dadbod-completion',
     },
-    opt = true,
-    config = function()
-      -- Basic settings
+    cmd = { 'DBUI', 'DBUIToggle', 'DBUIAddConnection', 'DBUIFindBuffer', 'DB' },
+    ft = { 'sql', 'mysql', 'plsql', 'sqlite' },
+    init = function()
+      -- Settings that need to be set before plugin loads
       vim.g.db_ui_save_location = vim.fn.stdpath 'data' .. '/db_ui'
+      vim.g.db_ui_auto_execute_table_helpers = 0
+      vim.g.vim_dadbod_completion_mark = ''
 
       vim.g.dbs = {
         pact = 'sqlite:~/repos/pact/database/database.db',
-        -- depricated, switched to sqlite
-        -- prism = 'postgresql:///prism?host=/var/run/postgresql',
         prism = 'sqlite:~/repos/prism/db/prism.db',
         gohttp = 'sqlite:~/repos/examples/gohttp/database/gohttp.db',
         muse = 'sqlite:~/repos/projects/db/muse.db',
         dailygardenguide = 'sqlite:~/repos/dailygardenguide/dailygardenguide.db',
       }
-
-      -- Optional: Set up key mappings
+    end,
+    config = function()
+      -- Set up key mappings
       vim.keymap.set('n', '<leader>db', '<Cmd>DBUIToggle<CR>', { desc = 'Toggle DB UI' })
       vim.keymap.set('n', '<leader>df', '<Cmd>DBUIFindBuffer<CR>', { desc = 'Find DB buffer' })
       vim.keymap.set('n', '<leader>dr', '<Cmd>DBUIRenameBuffer<CR>', { desc = 'Rename DB buffer' })
       vim.keymap.set('n', '<leader>dl', '<Cmd>DBUILastQueryInfo<CR>', { desc = 'Show last query' })
 
-
-      -- Set up completion for SQL files
+      -- Set up completion for SQL files - this runs after plugin is loaded
       vim.api.nvim_create_autocmd('FileType', {
         pattern = { 'sql', 'mysql', 'plsql', 'sqlite' },
         callback = function()
-          -- Only set up completion, don't auto-connect
-          if vim.b.dbui_db_key_name then
           require('cmp').setup.buffer {
             sources = {
               { name = 'vim-dadbod-completion' },
+              { name = 'nvim_lsp' },
+              { name = 'buffer' },
             },
           }
-          end
         end,
       })
-      
-      -- Add these settings to prevent auto-connection
-      vim.g.db_ui_auto_execute_table_helpers = 0
-      vim.g.vim_dadbod_completion_mark = ''
     end,
   },
   {
