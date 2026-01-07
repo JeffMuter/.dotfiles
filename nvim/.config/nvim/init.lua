@@ -703,7 +703,7 @@ require('lazy').setup({
               connections = {
                 {
                   driver = 'sqlite3',
-                  dataSourceName = './dailygardenguide.db',
+                  dataSourceName = '~/repos/dailygardenguide/garden.db',
                 },
               },
             },
@@ -1150,13 +1150,14 @@ opts = {
       vim.g.db_ui_save_location = vim.fn.stdpath 'data' .. '/db_ui'
       vim.g.db_ui_auto_execute_table_helpers = 0
       vim.g.vim_dadbod_completion_mark = ''
+      vim.g.vim_dadbod_completion_disable_auto_connect = 1
 
       vim.g.dbs = {
         pact = 'sqlite:~/repos/pact/database/database.db',
         prism = 'sqlite:~/repos/prism/db/prism.db',
         gohttp = 'sqlite:~/repos/examples/gohttp/database/gohttp.db',
         muse = 'sqlite:~/repos/projects/db/muse.db',
-        dailygardenguide = 'sqlite:~/repos/dailygardenguide/dailygardenguide.db',
+        dailygardenguide = 'sqlite:~/repos/dailygardenguide/garden.db',
       }
     end,
     config = function()
