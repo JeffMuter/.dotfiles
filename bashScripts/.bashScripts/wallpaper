@@ -1,0 +1,384 @@
+#!/usr/bin/env bash
+# Time-based wallpaper manager for Hyprland
+
+# Configuration constants
+WALLPAPER_BASE="$HOME/.dotfiles/wallpapers"
+LIGHT_DIR="$WALLPAPER_BASE/light-mode"
+DARK_DIR="$WALLPAPER_BASE/dark-mode"
+CONFIG_DIR="$HOME/.config/wallpaper"
+CONFIG_FILE="$CONFIG_DIR/config"
+HYPRPAPER_CONF="$HOME/.config/hypr/hyprpaper.conf"
+DAYTIME_START=6
+DAYTIME_END=18
+
+# Initialize config directory and file
+init_config() {
+    if [ ! -d "$CONFIG_DIR" ]; then
+        mkdir -p "$CONFIG_DIR"
+    fi
+
+    if [ ! -f "$CONFIG_FILE" ]; then
+        cat > "$CONFIG_FILE" << EOF
+MODE=auto
+DEFAULT_LIGHT=
+DEFAULT_DARK=
+EOF
+    fi
+}
+
+# Get a value from the config file
+get_config_value() {
+    local key="$1"
+    if [ -f "$CONFIG_FILE" ]; then
+        grep "^${key}=" "$CONFIG_FILE" 2>/dev/null | cut -d= -f2-
+    fi
+}
+
+# Set a value in the config file
+set_config_value() {
+    local key="$1"
+    local value="$2"
+
+    init_config
+
+    if grep -q "^${key}=" "$CONFIG_FILE" 2>/dev/null; then
+        # Update existing key (use | as delimiter to avoid issues with / in paths)
+        sed -i "s|^${key}=.*|${key}=${value}|" "$CONFIG_FILE"
+    else
+        # Add new key
+        echo "${key}=${value}" >> "$CONFIG_FILE"
+    fi
+}
+
+# Check if current time is daytime (6am-6pm)
+is_daytime() {
+    local current_hour
+    current_hour=$(date +%H)
+    # Remove leading zero for comparison
+    current_hour=$((10#$current_hour))
+
+    if [ "$current_hour" -ge "$DAYTIME_START" ] && [ "$current_hour" -lt "$DAYTIME_END" ]; then
+        return 0  # True - it's daytime
+    else
+        return 1  # False - it's nighttime
+    fi
+}
+
+# Select a random wallpaper from a directory
+select_random() {
+    local dir="$1"
+
+    if [ ! -d "$dir" ]; then
+        echo "Error: Directory not found: $dir" >&2
+        return 1
+    fi
+
+    local wallpaper
+    wallpaper=$(find "$dir" -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \) 2>/dev/null | shuf -n 1)
+
+    if [ -z "$wallpaper" ]; then
+        echo "Error: No wallpapers found in $dir" >&2
+        echo "Please add wallpaper images (jpg, jpeg, or png) to this directory." >&2
+        return 1
+    fi
+
+    echo "$wallpaper"
+}
+
+# Get the default wallpaper based on time of day
+get_default_wallpaper() {
+    local default_path
+
+    if is_daytime; then
+        default_path=$(get_config_value "DEFAULT_LIGHT")
+    else
+        default_path=$(get_config_value "DEFAULT_DARK")
+    fi
+
+    # If no default set, fall back to first wallpaper in appropriate directory
+    if [ -z "$default_path" ] || [ ! -f "$default_path" ]; then
+        echo "Warning: Default wallpaper not set or not found. Using first available wallpaper." >&2
+        if is_daytime; then
+            default_path=$(find "$LIGHT_DIR" -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \) 2>/dev/null | head -n 1)
+        else
+            default_path=$(find "$DARK_DIR" -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \) 2>/dev/null | head -n 1)
+        fi
+    fi
+
+    if [ -z "$default_path" ]; then
+        echo "Error: No wallpapers available" >&2
+        return 1
+    fi
+
+    echo "$default_path"
+}
+
+# Validate that a wallpaper file exists and is a valid image
+validate_wallpaper() {
+    local file="$1"
+
+    if [ ! -f "$file" ]; then
+        echo "Error: File not found: $file" >&2
+        return 1
+    fi
+
+    # Check if it has a valid image extension
+    case "${file,,}" in
+        *.jpg|*.jpeg|*.png)
+            return 0
+            ;;
+        *)
+            echo "Error: Invalid image format. Only jpg, jpeg, and png are supported." >&2
+            return 1
+            ;;
+    esac
+}
+
+# Set the wallpaper by generating hyprpaper.conf and launching hyprpaper
+set_wallpaper() {
+    local wallpaper_path="$1"
+
+    if ! validate_wallpaper "$wallpaper_path"; then
+        return 1
+    fi
+
+    echo "Setting wallpaper: $wallpaper_path"
+
+    # Generate hyprpaper.conf
+    cat > "$HYPRPAPER_CONF" << EOF
+preload = $wallpaper_path
+wallpaper = ,$wallpaper_path
+EOF
+
+    # Check if Hyprland is running (anywhere on the system)
+    if ! pgrep Hyprland >/dev/null 2>&1; then
+        echo "Warning: Hyprland is not running. Wallpaper config saved but hyprpaper not launched."
+        echo "The wallpaper will be applied when you log in to Hyprland."
+        return 0
+    fi
+
+    # Kill existing hyprpaper process if running
+    pkill hyprpaper 2>/dev/null
+    sleep 0.1
+
+    # If we're in a Wayland session, launch hyprpaper directly
+    # Otherwise, we need to set the environment for hyprpaper
+    if [[ "$XDG_SESSION_TYPE" == "wayland" ]] || [[ -n "$WAYLAND_DISPLAY" ]]; then
+        # We're in the Wayland session, launch directly
+        hyprpaper &>/dev/null &
+        disown
+    else
+        # We're accessing from outside (SSH/different TTY), need to set WAYLAND_DISPLAY
+        # Find the Hyprland instance
+        local wayland_display
+        wayland_display=$(ls -t /run/user/$(id -u)/wayland-* 2>/dev/null | head -n 1 | xargs basename 2>/dev/null)
+
+        if [[ -n "$wayland_display" ]]; then
+            WAYLAND_DISPLAY="$wayland_display" hyprpaper &>/dev/null &
+            disown
+        else
+            echo "Warning: Could not detect Wayland display. Wallpaper config saved."
+            return 0
+        fi
+    fi
+
+    echo "Wallpaper applied successfully!"
+}
+
+# Resolve a wallpaper filename to full path
+resolve_wallpaper_path() {
+    local filename="$1"
+
+    # If it's already an absolute path, use it
+    if [[ "$filename" = /* ]]; then
+        echo "$filename"
+        return 0
+    fi
+
+    # Search in light-mode and dark-mode directories
+    local found_path
+    found_path=$(find "$WALLPAPER_BASE" -type f -name "$filename" 2>/dev/null | head -n 1)
+
+    if [ -n "$found_path" ]; then
+        echo "$found_path"
+        return 0
+    fi
+
+    # Not found
+    echo "Error: Wallpaper not found: $filename" >&2
+    echo "Searched in: $WALLPAPER_BASE" >&2
+    return 1
+}
+
+# Show usage information
+show_usage() {
+    cat << EOF
+Usage: wallpaper [OPTION]
+
+Time-based wallpaper manager for Hyprland.
+Automatically selects wallpapers based on time of day (6am-6pm = light, 6pm-6am = dark).
+
+OPTIONS:
+  -l, --light              Force light mode (random from light-mode/)
+  -d, --dark               Force dark mode (random from dark-mode/)
+  -D, --default            Use default wallpapers (time-based)
+  -a, --auto               Re-enable automatic time-based selection (default)
+  --set <file>             Set a specific wallpaper (filename or path)
+  --set-default-light <file>   Set default light mode wallpaper
+  --set-default-dark <file>    Set default dark mode wallpaper
+  -h, --help               Show this help message
+
+EXAMPLES:
+  wallpaper --light         # Use random light wallpaper
+  wallpaper --dark          # Use random dark wallpaper
+  wallpaper --default       # Use configured default wallpaper
+  wallpaper --auto          # Back to automatic time-based selection
+  wallpaper --set image.jpg # Set specific wallpaper
+
+WALLPAPER DIRECTORIES:
+  Light mode: $LIGHT_DIR
+  Dark mode:  $DARK_DIR
+
+CONFIG FILE:
+  $CONFIG_FILE
+EOF
+}
+
+# Main function
+main() {
+    # Initialize config
+    init_config
+
+    # Parse command line arguments
+    case "$1" in
+        -l|--light)
+            set_config_value "MODE" "light"
+            wallpaper=$(select_random "$LIGHT_DIR")
+            if [ $? -eq 0 ]; then
+                set_wallpaper "$wallpaper"
+            else
+                exit 1
+            fi
+            ;;
+        -d|--dark)
+            set_config_value "MODE" "dark"
+            wallpaper=$(select_random "$DARK_DIR")
+            if [ $? -eq 0 ]; then
+                set_wallpaper "$wallpaper"
+            else
+                exit 1
+            fi
+            ;;
+        -D|--default)
+            set_config_value "MODE" "default"
+            wallpaper=$(get_default_wallpaper)
+            if [ $? -eq 0 ]; then
+                set_wallpaper "$wallpaper"
+            else
+                exit 1
+            fi
+            ;;
+        -a|--auto)
+            set_config_value "MODE" "auto"
+            if is_daytime; then
+                wallpaper=$(select_random "$LIGHT_DIR")
+            else
+                wallpaper=$(select_random "$DARK_DIR")
+            fi
+            if [ $? -eq 0 ]; then
+                set_wallpaper "$wallpaper"
+            else
+                exit 1
+            fi
+            ;;
+        --set)
+            if [ -z "$2" ]; then
+                echo "Error: --set requires a filename or path" >&2
+                show_usage
+                exit 1
+            fi
+            wallpaper=$(resolve_wallpaper_path "$2")
+            if [ $? -eq 0 ]; then
+                set_wallpaper "$wallpaper"
+            else
+                exit 1
+            fi
+            ;;
+        --set-default-light)
+            if [ -z "$2" ]; then
+                echo "Error: --set-default-light requires a filename or path" >&2
+                show_usage
+                exit 1
+            fi
+            wallpaper=$(resolve_wallpaper_path "$2")
+            if [ $? -eq 0 ]; then
+                set_config_value "DEFAULT_LIGHT" "$wallpaper"
+                echo "Default light wallpaper set to: $wallpaper"
+            else
+                exit 1
+            fi
+            ;;
+        --set-default-dark)
+            if [ -z "$2" ]; then
+                echo "Error: --set-default-dark requires a filename or path" >&2
+                show_usage
+                exit 1
+            fi
+            wallpaper=$(resolve_wallpaper_path "$2")
+            if [ $? -eq 0 ]; then
+                set_config_value "DEFAULT_DARK" "$wallpaper"
+                echo "Default dark wallpaper set to: $wallpaper"
+            else
+                exit 1
+            fi
+            ;;
+        -h|--help)
+            show_usage
+            exit 0
+            ;;
+        "")
+            # No arguments - use current mode from config
+            mode=$(get_config_value "MODE")
+
+            # If mode is invalid or empty, default to auto
+            if [ -z "$mode" ]; then
+                mode="auto"
+                set_config_value "MODE" "auto"
+            fi
+
+            case "$mode" in
+                light)
+                    wallpaper=$(select_random "$LIGHT_DIR")
+                    ;;
+                dark)
+                    wallpaper=$(select_random "$DARK_DIR")
+                    ;;
+                default)
+                    wallpaper=$(get_default_wallpaper)
+                    ;;
+                auto|*)
+                    # Default to auto mode
+                    if is_daytime; then
+                        wallpaper=$(select_random "$LIGHT_DIR")
+                    else
+                        wallpaper=$(select_random "$DARK_DIR")
+                    fi
+                    ;;
+            esac
+
+            if [ $? -eq 0 ] && [ -n "$wallpaper" ]; then
+                set_wallpaper "$wallpaper"
+            else
+                exit 1
+            fi
+            ;;
+        *)
+            echo "Error: Unknown option: $1" >&2
+            show_usage
+            exit 1
+            ;;
+    esac
+}
+
+# Run main function
+main "$@"

@@ -1,0 +1,12 @@
+# Ghostty Configuration
+
+# Font
+font-family = "Pokemon Pixel Font"
+font-size = 16
+
+# Background transparency (0.0 = fully transparent, 1.0 = fully opaque)
+# 0.85-0.95 is a good range for slight transparency
+background-opacity = 0.85
+
+# Optional: Adjust background blur if you want the blur effect behind terminal
+# background-blur-radius = 20
