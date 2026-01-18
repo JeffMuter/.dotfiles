@@ -1,7 +1,7 @@
 # Ghostty Configuration
 
 # Font
-font-family = "Pokemon Pixel Font"
+font-family = "scientifica"
 font-size = 16
 
 # Background transparency (0.0 = fully transparent, 1.0 = fully opaque)
