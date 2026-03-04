@@ -1,8 +1,8 @@
 [safe]
 	directory = /etc/nixos
 [user]
-	email = muterjeffery@gmail.com
-	name = JeffMuter
+	email = ai@example.com
+	name = Crush AI
 [alias]
     # Check if SSH is working with GitHub
     ssh-check = !bash -c 'echo "Testing SSH connection to GitHub..." && ssh -T git@github.com'
@@ -14,3 +14,5 @@
 
     saorsa = "!f() { \n    branch=$(git branch --show-current); \n    echo \"\"; \n    echo \"[FETCH...]\"; \n    git fetch origin $branch; \n    ahead=$(git rev-list --count origin/$branch..HEAD); \n    behind=$(git rev-list --count HEAD..origin/$branch); \n    echo \"Ahead: $ahead, Behind: $behind\"; \n    echo \"\"; \n    echo \"[COMMIT...]\"; \n    git add . && git commit -m \"$1\" && { \n        echo \"\"; \n        echo \"[PULL...]\"; \n        git pull origin $branch || { echo \"Pull failed - aborting\"; exit 1; }; \n    } && { \n        echo \"\"; \n        echo \"[PUSH...]\"; \n        git push origin $branch; \n    }; \n}; f"
 
+[core]
+	excludesfile = /home/emerald/.gitignore_global
