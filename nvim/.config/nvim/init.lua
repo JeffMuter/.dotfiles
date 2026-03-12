@@ -516,6 +516,11 @@ require('lazy').setup({
       'hrsh7th/cmp-nvim-lsp',
     },
     config = function()
+      -- Enable LSP debug logging to troubleshoot performance issues
+      vim.lsp.set_log_level 'debug'
+      local log_file = vim.fn.stdpath 'cache' .. '/lsp.log'
+      vim.notify('LSP logs available at: ' .. log_file, vim.log.levels.INFO)
+
       -- Brief aside: **What is LSP?**
       --
       -- LSP is an initialism you've probably heard, but might not understand what it is.
@@ -673,7 +678,7 @@ require('lazy').setup({
         -- Use vim-dadbod for SQL editing
         terraformls = {},
         htmx = {},
-        ts_ls = {},
+        -- TypeScript LSP disabled - using eslint + prettier for linting/formatting instead
 
         zls = {},
         -- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
@@ -797,6 +802,10 @@ require('mason-lspconfig').setup {
     end,
 
     function(server_name)
+      -- Skip TypeScript LSP - using eslint + prettier instead
+      if server_name == 'ts_ls' then
+        return
+      end
       local server = servers[server_name] or {}
       server.capabilities = vim.tbl_deep_extend('force', {}, capabilities, server.capabilities or {})
       require('lspconfig')[server_name].setup(server)
